@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [BBB_parport.PrjPcb]
+   Generated File[BBB_parport.TXT]
+   Generated File[BBB_parport.LDP]
+   Generated File[BBB_parport.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:55:29 AM On 18/05/2016

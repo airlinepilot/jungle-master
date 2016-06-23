@@ -1,0 +1,3 @@
+Added Component: Designator=*(DYlogo2)
+Added Member To Class: ClassName=BBB_parport Member=Component * DY_LOGO1
+Added Room: Name=BBB_parport

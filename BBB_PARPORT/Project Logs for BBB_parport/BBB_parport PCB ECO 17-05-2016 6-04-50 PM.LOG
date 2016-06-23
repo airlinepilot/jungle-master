@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator= NewDesignator=logo
+Added Component: Designator=logo1(DYLOGO4)
+Added Member To Class: ClassName=BBB_parport Member=Component logo1 DY_LOGO1
+Added Member To Class: ClassName=BBB_parport Member=Component logo DY_LOGO1
+Added Room: Name=BBB_parport

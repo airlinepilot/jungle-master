@@ -1,0 +1,106 @@
+Added Component: Designator=LED4(LED3MM)
+Added Component: Designator=LED5(LED3MM)
+Added Component: Designator=LED6(LED3MM)
+Added Component: Designator=LED7(LED3MM)
+Added Component: Designator=LED8(LED3MM)
+Added Component: Designator=LED9(LED3MM)
+Added Component: Designator=LED10(LED3MM)
+Added Component: Designator=LED11(LED3MM)
+Added Component: Designator=LED12(LED3MM)
+Added Component: Designator=LED13(LED3MM)
+Added Component: Designator=LED14(LED3MM)
+Added Component: Designator=LED15(LED3MM)
+Added Component: Designator=LED16(LED3MM)
+Added Component: Designator=LED17(LED3MM)
+Added Component: Designator=LED18(LED3MM)
+Added Component: Designator=LED19(LED3MM)
+Added Component: Designator=LED20(LED3MM)
+Added Component: Designator=LED21(LED3MM)
+Added Component: Designator=R24(0805_R)
+Added Component: Designator=R25(0805_R)
+Added Pin To Net: NetName=XHOME2 Pin=LED4-K
+Added Pin To Net: NetName=YHOME2 Pin=LED5-K
+Added Pin To Net: NetName=ZHOME2 Pin=LED6-K
+Added Pin To Net: NetName=AHOME2 Pin=LED7-K
+Added Pin To Net: NetName=BHOME2 Pin=LED8-K
+Added Pin To Net: NetName=CHOME2 Pin=LED9-K
+Added Pin To Net: NetName=ZMIN2 Pin=LED10-K
+Added Pin To Net: NetName=ZMAX2 Pin=LED11-K
+Added Pin To Net: NetName=AMIN2 Pin=LED12-K
+Added Pin To Net: NetName=AMAX2 Pin=LED13-K
+Added Pin To Net: NetName=XMIN2 Pin=LED14-K
+Added Pin To Net: NetName=XMAX2 Pin=LED15-K
+Added Pin To Net: NetName=YMIN2 Pin=LED16-K
+Added Pin To Net: NetName=YMAX2 Pin=LED17-K
+Added Pin To Net: NetName=AXES_ENABLE2 Pin=LED18-K
+Added Pin To Net: NetName=RELAY2 Pin=LED19-K
+Added Pin To Net: NetName=SPINDLE2 Pin=LED20-K
+Added Pin To Net: NetName=SPINDLE_DIR2 Pin=LED21-K
+Added Pin To Net: NetName=VDD_5VB Pin=R24-1
+Added Pin To Net: NetName=VDD_5VB Pin=R25-1
+Added Pin To Net: NetName=XHOME2 Pin=U1-11
+Added Pin To Net: NetName=XMIN2 Pin=U1-12
+Added Pin To Net: NetName=YDIR2 Pin=U4-11
+Added Pin To Net: NetName=YSTEP2 Pin=U4-12
+Added Pin To Net: NetName=ASTEP2 Pin=U5-11
+Added Pin To Net: NetName=ZHOME2 Pin=U5-12
+Added Pin To Net: NetName=SPINDLE_DIR2 Pin=U6-12
+Added Pin To Net: NetName=NetLED4_A Pin=LED4-A
+Added Net: Name=NetLED4_A
+Added Pin To Net: NetName=NetLED5_A Pin=LED5-A
+Added Net: Name=NetLED5_A
+Added Pin To Net: NetName=NetLED6_A Pin=LED6-A
+Added Net: Name=NetLED6_A
+Added Pin To Net: NetName=NetLED7_A Pin=LED7-A
+Added Net: Name=NetLED7_A
+Added Pin To Net: NetName=NetLED8_A Pin=LED8-A
+Added Pin To Net: NetName=NetLED8_A Pin=R24-2
+Added Net: Name=NetLED8_A
+Added Pin To Net: NetName=NetLED9_A Pin=LED9-A
+Added Pin To Net: NetName=NetLED9_A Pin=R25-2
+Added Net: Name=NetLED9_A
+Added Pin To Net: NetName=NetLED10_A Pin=LED10-A
+Added Net: Name=NetLED10_A
+Added Pin To Net: NetName=NetLED11_A Pin=LED11-A
+Added Net: Name=NetLED11_A
+Added Pin To Net: NetName=NetLED12_A Pin=LED12-A
+Added Net: Name=NetLED12_A
+Added Pin To Net: NetName=NetLED13_A Pin=LED13-A
+Added Net: Name=NetLED13_A
+Added Pin To Net: NetName=NetLED14_A Pin=LED14-A
+Added Net: Name=NetLED14_A
+Added Pin To Net: NetName=NetLED15_A Pin=LED15-A
+Added Net: Name=NetLED15_A
+Added Pin To Net: NetName=NetLED16_A Pin=LED16-A
+Added Net: Name=NetLED16_A
+Added Pin To Net: NetName=NetLED17_A Pin=LED17-A
+Added Net: Name=NetLED17_A
+Added Pin To Net: NetName=NetLED18_A Pin=LED18-A
+Added Net: Name=NetLED18_A
+Added Pin To Net: NetName=NetLED19_A Pin=LED19-A
+Added Net: Name=NetLED19_A
+Added Pin To Net: NetName=NetLED20_A Pin=LED20-A
+Added Net: Name=NetLED20_A
+Added Pin To Net: NetName=NetLED21_A Pin=LED21-A
+Added Net: Name=NetLED21_A
+Added Member To Class: ClassName=BBB_parport Member=Component LED4 
+Added Member To Class: ClassName=BBB_parport Member=Component LED5 
+Added Member To Class: ClassName=BBB_parport Member=Component LED6 
+Added Member To Class: ClassName=BBB_parport Member=Component LED7 
+Added Member To Class: ClassName=BBB_parport Member=Component LED8 
+Added Member To Class: ClassName=BBB_parport Member=Component LED9 
+Added Member To Class: ClassName=BBB_parport Member=Component LED10 
+Added Member To Class: ClassName=BBB_parport Member=Component LED11 
+Added Member To Class: ClassName=BBB_parport Member=Component LED12 
+Added Member To Class: ClassName=BBB_parport Member=Component LED13 
+Added Member To Class: ClassName=BBB_parport Member=Component LED14 
+Added Member To Class: ClassName=BBB_parport Member=Component LED15 
+Added Member To Class: ClassName=BBB_parport Member=Component LED16 
+Added Member To Class: ClassName=BBB_parport Member=Component LED17 
+Added Member To Class: ClassName=BBB_parport Member=Component LED18 
+Added Member To Class: ClassName=BBB_parport Member=Component LED19 
+Added Member To Class: ClassName=BBB_parport Member=Component LED20 
+Added Member To Class: ClassName=BBB_parport Member=Component LED21 
+Added Member To Class: ClassName=BBB_parport Member=Component R24 0805_R
+Added Member To Class: ClassName=BBB_parport Member=Component R25 0805_R
+Added Room: Name=BBB_parport

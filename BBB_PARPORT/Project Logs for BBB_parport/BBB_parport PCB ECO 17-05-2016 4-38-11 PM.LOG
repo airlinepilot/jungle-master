@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=BBB_parport Member=*
+Added Component: Designator=DY_LOGO(DY_logo)
+Added Member To Class: ClassName=BBB_parport Member=Component DY_LOGO Logo?

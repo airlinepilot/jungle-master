@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=JP2 Old Footprint=HEAD6 New Footprint=Domino6_381
+Change Component Footprint: Designator=JP3 Old Footprint=HEAD6 New Footprint=Domino6_381
+Change Component Footprint: Designator=JP6 Old Footprint=HEAD6 New Footprint=Domino6_381
+Change Component Footprint: Designator=JP7 Old Footprint=HEAD6 New Footprint=Domino6_381
+Change Component Footprint: Designator=JP8 Old Footprint=HEAD6 New Footprint=Domino6_381
+Change Component Footprint: Designator=JP5 Old Footprint=HEAD8 New Footprint=Domino8_381
+Added Pin To Net: NetName=NetC2_2 Pin=U1-11
+Added Pin To Net: NetName=NetC2_2 Pin=U1-12
+Added Pin To Net: NetName=NetC4_2 Pin=U4-11
+Added Pin To Net: NetName=NetC4_2 Pin=U4-12
+Added Pin To Net: NetName=NetC5_2 Pin=U5-11
+Added Pin To Net: NetName=NetC5_2 Pin=U5-12
+Added Pin To Net: NetName=NetC6_2 Pin=U6-12
+Added Room: Name=BBB_parport

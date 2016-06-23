@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VDD_5VB Pin=R14-1
+Removed Pin From Net: NetName=VDD_5VB Pin=R24-1
+Removed Pin From Net: NetName=VDD_5VB Pin=R25-1
+Added Pin To Net: NetName=VDD_5VB Pin=R13-2
+Change Net Name : Old Net Name=VDD_5VB New Net Name=VDD_5VA
+Added Pin To Net: NetName=VDD_5VB Pin=R14-1
+Added Pin To Net: NetName=VDD_5VB Pin=R24-1
+Added Pin To Net: NetName=VDD_5VB Pin=R25-1
+Added Net: Name=VDD_5VB
+Added Room: Name=BBB_parport

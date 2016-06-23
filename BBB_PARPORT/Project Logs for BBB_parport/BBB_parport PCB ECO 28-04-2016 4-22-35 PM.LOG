@@ -1,0 +1,35 @@
+Added Component: Designator=RN9(RN4_THROUGHHOLE)
+Added Component: Designator=RN10(RN4_THROUGHHOLE)
+Added Component: Designator=RN11(RN4_THROUGHHOLE)
+Added Component: Designator=RN12(RN4_THROUGHHOLE)
+Added Pin To Net: NetName=VDD_5VB Pin=RN9-1
+Added Pin To Net: NetName=NetLED4_A Pin=RN9-2
+Added Pin To Net: NetName=NetLED5_A Pin=RN9-3
+Added Pin To Net: NetName=NetLED6_A Pin=RN9-4
+Added Pin To Net: NetName=NetLED7_A Pin=RN9-5
+Added Pin To Net: NetName=VDD_5VB Pin=RN10-1
+Added Pin To Net: NetName=NetLED10_A Pin=RN10-2
+Added Pin To Net: NetName=NetLED11_A Pin=RN10-3
+Added Pin To Net: NetName=NetLED12_A Pin=RN10-4
+Added Pin To Net: NetName=NetLED13_A Pin=RN10-5
+Added Pin To Net: NetName=VDD_5VB Pin=RN11-1
+Added Pin To Net: NetName=NetLED14_A Pin=RN11-2
+Added Pin To Net: NetName=NetLED15_A Pin=RN11-3
+Added Pin To Net: NetName=NetLED16_A Pin=RN11-4
+Added Pin To Net: NetName=NetLED17_A Pin=RN11-5
+Added Pin To Net: NetName=VDD_5VB Pin=RN12-1
+Added Pin To Net: NetName=NetLED18_A Pin=RN12-2
+Added Pin To Net: NetName=NetLED19_A Pin=RN12-3
+Added Pin To Net: NetName=NetLED20_A Pin=RN12-4
+Added Pin To Net: NetName=NetLED21_A Pin=RN12-5
+Added Pin To Net: NetName=NetC2_2 Pin=U1-11
+Added Pin To Net: NetName=NetC2_2 Pin=U1-12
+Added Pin To Net: NetName=NetC4_2 Pin=U4-11
+Added Pin To Net: NetName=NetC4_2 Pin=U4-12
+Added Pin To Net: NetName=NetC5_2 Pin=U5-11
+Added Pin To Net: NetName=NetC5_2 Pin=U5-12
+Added Pin To Net: NetName=NetC6_2 Pin=U6-12
+Added Member To Class: ClassName=BBB_parport Member=Component RN9 330R
+Added Member To Class: ClassName=BBB_parport Member=Component RN10 330R
+Added Member To Class: ClassName=BBB_parport Member=Component RN11 330R
+Added Member To Class: ClassName=BBB_parport Member=Component RN12 330R

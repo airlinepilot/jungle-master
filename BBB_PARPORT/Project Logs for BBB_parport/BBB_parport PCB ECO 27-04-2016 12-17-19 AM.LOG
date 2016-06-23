@@ -1,0 +1,514 @@
+Added Component: Designator=*(DB25_MALE)
+Added Component: Designator=*(HEAD13X2)
+Added Component: Designator=?(BEAGLEBONE_SHIELD)
+Added Component: Designator=C?(0805_C)
+Added Component: Designator=C?(0805_C)
+Added Component: Designator=C?(0805_C)
+Added Component: Designator=C?(0805_C)
+Added Component: Designator=C?(0805_C)
+Added Component: Designator=C?(0805_C)
+Added Component: Designator=JP?(HEAD6)
+Added Component: Designator=JP?(HEAD6)
+Added Component: Designator=JP?(HEAD6)
+Added Component: Designator=JP?(HEAD2)
+Added Component: Designator=JP?(HEAD8)
+Added Component: Designator=JP?(HEAD18)
+Added Component: Designator=JP?(HEAD6)
+Added Component: Designator=JP?(HEAD6)
+Added Component: Designator=LED?(0805_LED)
+Added Component: Designator=LED?(0805_LED)
+Added Component: Designator=LED?(0805_LED)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=R?(0805_R)
+Added Component: Designator=SD?(SW_DIP_2POS_THR)
+Added Component: Designator=U?(VSSOP10)
+Added Component: Designator=U?(SOIC8_Wide)
+Added Component: Designator=U?(TSSOP20)
+Added Component: Designator=U?(TSSOP20)
+Added Component: Designator=U?(TSSOP20)
+Added Component: Designator=U?(TSSOP20)
+Added Pin To Net: NetName=5V Pin=JP?-3
+Added Pin To Net: NetName=5V Pin=JP?-6
+Added Net: Name=5V
+Added Pin To Net: NetName=ADIR2 Pin=*-8
+Added Pin To Net: NetName=ADIR2 Pin=*-15
+Added Net: Name=ADIR2
+Added Pin To Net: NetName=AHOME2 Pin=*-4
+Added Pin To Net: NetName=AHOME2 Pin=*-15
+Added Pin To Net: NetName=AHOME2 Pin=JP?-5
+Added Pin To Net: NetName=AHOME2 Pin=U?-15
+Added Net: Name=AHOME2
+Added Pin To Net: NetName=AHOME Pin=U?-6
+Added Net: Name=AHOME
+Added Pin To Net: NetName=AMAX2 Pin=JP?-5
+Added Pin To Net: NetName=AMAX2 Pin=U?-15
+Added Net: Name=AMAX2
+Added Pin To Net: NetName=AMAX Pin=U?-6
+Added Net: Name=AMAX
+Added Pin To Net: NetName=AMIN2 Pin=JP?-4
+Added Net: Name=AMIN2
+Added Pin To Net: NetName=AMIN Pin=U?-3
+Added Net: Name=AMIN
+Added Pin To Net: NetName=ASTEP2 Pin=*-9
+Added Pin To Net: NetName=ASTEP2 Pin=*-17
+Added Pin To Net: NetName=ASTEP2 Pin=U?-11
+Added Net: Name=ASTEP2
+Added Pin To Net: NetName=ASTEP Pin=U?-10
+Added Net: Name=ASTEP
+Added Pin To Net: NetName=AUDIO1 Pin=?-71
+Added Net: Name=AUDIO1
+Added Pin To Net: NetName=AXES_ENABLE2 Pin=JP?-2
+Added Pin To Net: NetName=AXES_ENABLE2 Pin=U?-16
+Added Net: Name=AXES_ENABLE2
+Added Pin To Net: NetName=AXES_ENABLE Pin=U?-5
+Added Net: Name=AXES_ENABLE
+Added Pin To Net: NetName=BDIR2 Pin=*-6
+Added Pin To Net: NetName=BDIR2 Pin=*-16
+Added Pin To Net: NetName=BDIR2 Pin=U?-14
+Added Net: Name=BDIR2
+Added Pin To Net: NetName=BDIR Pin=U?-7
+Added Net: Name=BDIR
+Added Pin To Net: NetName=BHOME2 Pin=JP?-6
+Added Pin To Net: NetName=BHOME2 Pin=U?-17
+Added Net: Name=BHOME2
+Added Pin To Net: NetName=BHOME Pin=U?-4
+Added Net: Name=BHOME
+Added Pin To Net: NetName=BSTEP2 Pin=*-8
+Added Pin To Net: NetName=BSTEP2 Pin=*-17
+Added Pin To Net: NetName=BSTEP2 Pin=U?-13
+Added Net: Name=BSTEP2
+Added Pin To Net: NetName=BSTEP Pin=U?-8
+Added Net: Name=BSTEP
+Added Pin To Net: NetName=CDIR2 Pin=U?-17
+Added Net: Name=CDIR2
+Added Pin To Net: NetName=CDIR Pin=U?-4
+Added Net: Name=CDIR
+Added Net: Name=CHOME2
+Added Pin To Net: NetName=CSTEP2 Pin=U?-18
+Added Net: Name=CSTEP2
+Added Pin To Net: NetName=CSTEP Pin=U?-3
+Added Net: Name=CSTEP
+Added Pin To Net: NetName=ESTOP_EXT2 Pin=*-10
+Added Pin To Net: NetName=ESTOP_EXT2 Pin=*-19
+Added Pin To Net: NetName=ESTOP_EXT2 Pin=U?-13
+Added Net: Name=ESTOP_EXT2
+Added Pin To Net: NetName=ESTOP_EXT Pin=?-87
+Added Pin To Net: NetName=ESTOP_EXT Pin=U?-8
+Added Net: Name=ESTOP_EXT
+Added Pin To Net: NetName=GND Pin=*-10
+Added Pin To Net: NetName=GND Pin=*-12
+Added Pin To Net: NetName=GND Pin=*-14
+Added Pin To Net: NetName=GND Pin=*-16
+Added Pin To Net: NetName=GND Pin=*-18
+Added Pin To Net: NetName=GND Pin=*-18
+Added Pin To Net: NetName=GND Pin=*-19
+Added Pin To Net: NetName=GND Pin=*-20
+Added Pin To Net: NetName=GND Pin=*-20
+Added Pin To Net: NetName=GND Pin=*-21
+Added Pin To Net: NetName=GND Pin=*-22
+Added Pin To Net: NetName=GND Pin=*-22
+Added Pin To Net: NetName=GND Pin=*-23
+Added Pin To Net: NetName=GND Pin=*-24
+Added Pin To Net: NetName=GND Pin=*-24
+Added Pin To Net: NetName=GND Pin=*-25
+Added Pin To Net: NetName=GND Pin=*-26
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=JP?-1
+Added Pin To Net: NetName=GND Pin=JP?-6
+Added Pin To Net: NetName=GND Pin=JP?-6
+Added Pin To Net: NetName=GND Pin=JP?-6
+Added Pin To Net: NetName=GND Pin=LED?-2
+Added Pin To Net: NetName=GND Pin=LED?-2
+Added Pin To Net: NetName=GND Pin=LED?-2
+Added Pin To Net: NetName=GND Pin=SD?-1
+Added Pin To Net: NetName=GND Pin=SD?-2
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Net: Name=GND
+Added Pin To Net: NetName=I2C2_SCL Pin=JP?-1
+Added Pin To Net: NetName=I2C2_SCL Pin=R?-2
+Added Pin To Net: NetName=I2C2_SCL Pin=U?-6
+Added Pin To Net: NetName=I2C2_SCL Pin=U?-10
+Added Net: Name=I2C2_SCL
+Added Pin To Net: NetName=I2C2_SDA Pin=R?-2
+Added Pin To Net: NetName=I2C2_SDA Pin=U?-5
+Added Pin To Net: NetName=I2C2_SDA Pin=U?-9
+Added Net: Name=I2C2_SDA
+Added Pin To Net: NetName=Net?_1 Pin=?-1
+Added Pin To Net: NetName=Net?_1 Pin=?-2
+Added Pin To Net: NetName=Net?_1 Pin=?-47
+Added Pin To Net: NetName=Net?_1 Pin=?-48
+Added Pin To Net: NetName=Net?_1 Pin=?-89
+Added Pin To Net: NetName=Net?_1 Pin=?-90
+Added Pin To Net: NetName=Net?_1 Pin=?-91
+Added Pin To Net: NetName=Net?_1 Pin=?-92
+Added Net: Name=Net?_1
+Added Pin To Net: NetName=Net?_3 Pin=?-3
+Added Net: Name=Net?_3
+Added Pin To Net: NetName=Net?_4 Pin=?-4
+Added Net: Name=Net?_4
+Added Pin To Net: NetName=Net?_5 Pin=?-5
+Added Net: Name=Net?_5
+Added Pin To Net: NetName=Net?_6 Pin=?-6
+Added Net: Name=Net?_6
+Added Pin To Net: NetName=Net?_7 Pin=?-7
+Added Net: Name=Net?_7
+Added Pin To Net: NetName=Net?_8 Pin=?-8
+Added Net: Name=Net?_8
+Added Pin To Net: NetName=Net?_9 Pin=?-9
+Added Net: Name=Net?_9
+Added Pin To Net: NetName=Net?_10 Pin=?-10
+Added Net: Name=Net?_10
+Added Pin To Net: NetName=Net?_11 Pin=?-11
+Added Net: Name=Net?_11
+Added Pin To Net: NetName=Net?_12 Pin=?-12
+Added Net: Name=Net?_12
+Added Pin To Net: NetName=Net?_14 Pin=?-14
+Added Net: Name=Net?_14
+Added Pin To Net: NetName=Net?_15 Pin=?-15
+Added Net: Name=Net?_15
+Added Pin To Net: NetName=Net?_16 Pin=?-16
+Added Net: Name=Net?_16
+Added Pin To Net: NetName=Net?_17 Pin=?-17
+Added Net: Name=Net?_17
+Added Pin To Net: NetName=Net?_18 Pin=?-18
+Added Net: Name=Net?_18
+Added Pin To Net: NetName=Net?_20 Pin=?-20
+Added Net: Name=Net?_20
+Added Pin To Net: NetName=Net?_21 Pin=?-21
+Added Net: Name=Net?_21
+Added Pin To Net: NetName=Net?_22 Pin=?-22
+Added Net: Name=Net?_22
+Added Pin To Net: NetName=Net?_23 Pin=?-23
+Added Net: Name=Net?_23
+Added Pin To Net: NetName=Net?_24 Pin=?-24
+Added Net: Name=Net?_24
+Added Pin To Net: NetName=Net?_25 Pin=?-25
+Added Net: Name=Net?_25
+Added Pin To Net: NetName=Net?_26 Pin=?-26
+Added Net: Name=Net?_26
+Added Pin To Net: NetName=Net?_27 Pin=?-27
+Added Net: Name=Net?_27
+Added Pin To Net: NetName=Net?_28 Pin=?-28
+Added Net: Name=Net?_28
+Added Pin To Net: NetName=Net?_29 Pin=?-29
+Added Net: Name=Net?_29
+Added Pin To Net: NetName=Net?_30 Pin=?-30
+Added Net: Name=Net?_30
+Added Pin To Net: NetName=Net?_31 Pin=?-31
+Added Net: Name=Net?_31
+Added Pin To Net: NetName=Net?_32 Pin=?-32
+Added Net: Name=Net?_32
+Added Pin To Net: NetName=Net?_33 Pin=?-33
+Added Net: Name=Net?_33
+Added Pin To Net: NetName=Net?_34 Pin=?-34
+Added Net: Name=Net?_34
+Added Pin To Net: NetName=Net?_35 Pin=?-35
+Added Net: Name=Net?_35
+Added Pin To Net: NetName=Net?_36 Pin=?-36
+Added Net: Name=Net?_36
+Added Pin To Net: NetName=Net?_37 Pin=?-37
+Added Net: Name=Net?_37
+Added Pin To Net: NetName=Net?_38 Pin=?-38
+Added Net: Name=Net?_38
+Added Pin To Net: NetName=Net?_39 Pin=?-39
+Added Net: Name=Net?_39
+Added Pin To Net: NetName=Net?_40 Pin=?-40
+Added Net: Name=Net?_40
+Added Pin To Net: NetName=Net?_41 Pin=?-41
+Added Net: Name=Net?_41
+Added Pin To Net: NetName=Net?_42 Pin=?-42
+Added Net: Name=Net?_42
+Added Pin To Net: NetName=Net?_43 Pin=?-43
+Added Net: Name=Net?_43
+Added Pin To Net: NetName=Net?_44 Pin=?-44
+Added Net: Name=Net?_44
+Added Pin To Net: NetName=Net?_45 Pin=?-45
+Added Net: Name=Net?_45
+Added Pin To Net: NetName=Net?_46 Pin=?-46
+Added Net: Name=Net?_46
+Added Pin To Net: NetName=Net?_49 Pin=?-49
+Added Pin To Net: NetName=Net?_49 Pin=R?-1
+Added Net: Name=Net?_49
+Added Pin To Net: NetName=Net?_50 Pin=?-50
+Added Pin To Net: NetName=Net?_50 Pin=R?-2
+Added Net: Name=Net?_50
+Added Pin To Net: NetName=Net?_51 Pin=?-51
+Added Pin To Net: NetName=Net?_51 Pin=R?-1
+Added Net: Name=Net?_51
+Added Pin To Net: NetName=Net?_52 Pin=?-52
+Added Pin To Net: NetName=Net?_52 Pin=R?-2
+Added Net: Name=Net?_52
+Added Pin To Net: NetName=Net?_53 Pin=?-53
+Added Pin To Net: NetName=Net?_53 Pin=R?-1
+Added Net: Name=Net?_53
+Added Pin To Net: NetName=Net?_54 Pin=?-54
+Added Pin To Net: NetName=Net?_54 Pin=R?-2
+Added Net: Name=Net?_54
+Added Pin To Net: NetName=Net?_55 Pin=?-55
+Added Net: Name=Net?_55
+Added Pin To Net: NetName=Net?_56 Pin=?-56
+Added Net: Name=Net?_56
+Added Pin To Net: NetName=Net?_57 Pin=?-57
+Added Net: Name=Net?_57
+Added Pin To Net: NetName=Net?_58 Pin=?-58
+Added Net: Name=Net?_58
+Added Pin To Net: NetName=Net?_59 Pin=?-59
+Added Net: Name=Net?_59
+Added Pin To Net: NetName=Net?_60 Pin=?-60
+Added Net: Name=Net?_60
+Added Pin To Net: NetName=Net?_61 Pin=?-61
+Added Net: Name=Net?_61
+Added Pin To Net: NetName=Net?_62 Pin=?-62
+Added Net: Name=Net?_62
+Added Pin To Net: NetName=Net?_63 Pin=?-63
+Added Net: Name=Net?_63
+Added Pin To Net: NetName=Net?_64 Pin=?-64
+Added Net: Name=Net?_64
+Added Pin To Net: NetName=Net?_65 Pin=?-65
+Added Net: Name=Net?_65
+Added Pin To Net: NetName=Net?_66 Pin=?-66
+Added Net: Name=Net?_66
+Added Pin To Net: NetName=Net?_67 Pin=?-67
+Added Net: Name=Net?_67
+Added Pin To Net: NetName=Net?_68 Pin=?-68
+Added Net: Name=Net?_68
+Added Pin To Net: NetName=Net?_69 Pin=?-69
+Added Net: Name=Net?_69
+Added Pin To Net: NetName=Net?_70 Pin=?-70
+Added Net: Name=Net?_70
+Added Pin To Net: NetName=Net?_72 Pin=?-72
+Added Net: Name=Net?_72
+Added Pin To Net: NetName=Net?_73 Pin=?-73
+Added Net: Name=Net?_73
+Added Pin To Net: NetName=Net?_74 Pin=?-74
+Added Net: Name=Net?_74
+Added Pin To Net: NetName=Net?_75 Pin=?-75
+Added Net: Name=Net?_75
+Added Pin To Net: NetName=Net?_77 Pin=?-77
+Added Net: Name=Net?_77
+Added Pin To Net: NetName=Net?_78 Pin=?-78
+Added Net: Name=Net?_78
+Added Pin To Net: NetName=Net?_79 Pin=?-79
+Added Net: Name=Net?_79
+Added Pin To Net: NetName=Net?_80 Pin=?-80
+Added Net: Name=Net?_80
+Added Pin To Net: NetName=Net?_81 Pin=?-81
+Added Net: Name=Net?_81
+Added Pin To Net: NetName=Net?_82 Pin=?-82
+Added Net: Name=Net?_82
+Added Pin To Net: NetName=Net?_83 Pin=?-83
+Added Net: Name=Net?_83
+Added Pin To Net: NetName=Net?_84 Pin=?-84
+Added Net: Name=Net?_84
+Added Pin To Net: NetName=Net?_85 Pin=?-85
+Added Net: Name=Net?_85
+Added Pin To Net: NetName=Net?_86 Pin=?-86
+Added Net: Name=Net?_86
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=U?-8
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetJP?_3 Pin=JP?-3
+Added Pin To Net: NetName=NetJP?_3 Pin=U?-4
+Added Net: Name=NetJP?_3
+Added Pin To Net: NetName=NetJP?_4 Pin=JP?-4
+Added Pin To Net: NetName=NetJP?_4 Pin=U?-5
+Added Net: Name=NetJP?_4
+Added Pin To Net: NetName=NetJP?_5 Pin=JP?-5
+Added Pin To Net: NetName=NetJP?_5 Pin=U?-6
+Added Net: Name=NetJP?_5
+Added Pin To Net: NetName=NetJP?_6 Pin=JP?-6
+Added Pin To Net: NetName=NetJP?_6 Pin=U?-7
+Added Net: Name=NetJP?_6
+Added Pin To Net: NetName=NetLED?_1 Pin=LED?-1
+Added Pin To Net: NetName=NetLED?_1 Pin=R?-1
+Added Net: Name=NetLED?_1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=U?-7
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=PWM0 Pin=?-13
+Added Net: Name=PWM0
+Added Pin To Net: NetName=PWM1 Pin=?-19
+Added Net: Name=PWM1
+Added Pin To Net: NetName=RELAY2 Pin=*-2
+Added Pin To Net: NetName=RELAY2 Pin=*-14
+Added Pin To Net: NetName=RELAY2 Pin=JP?-3
+Added Pin To Net: NetName=RELAY2 Pin=U?-14
+Added Net: Name=RELAY2
+Added Pin To Net: NetName=RELAY Pin=?-76
+Added Pin To Net: NetName=RELAY Pin=U?-7
+Added Net: Name=RELAY
+Added Pin To Net: NetName=SPINDLE2 Pin=*-1
+Added Pin To Net: NetName=SPINDLE2 Pin=*-1
+Added Pin To Net: NetName=SPINDLE2 Pin=JP?-4
+Added Pin To Net: NetName=SPINDLE2 Pin=U?-17
+Added Net: Name=SPINDLE2
+Added Pin To Net: NetName=SPINDLE_DIR2 Pin=JP?-5
+Added Pin To Net: NetName=SPINDLE_DIR2 Pin=U?-12
+Added Net: Name=SPINDLE_DIR2
+Added Pin To Net: NetName=SPINDLE_DIR Pin=?-88
+Added Pin To Net: NetName=SPINDLE_DIR Pin=U?-9
+Added Net: Name=SPINDLE_DIR
+Added Pin To Net: NetName=SPINDLE Pin=U?-4
+Added Net: Name=SPINDLE
+Added Pin To Net: NetName=STATUS_LED2 Pin=R?-2
+Added Pin To Net: NetName=STATUS_LED2 Pin=U?-16
+Added Net: Name=STATUS_LED2
+Added Pin To Net: NetName=STATUS_LED Pin=U?-5
+Added Net: Name=STATUS_LED
+Added Pin To Net: NetName=SYS_5VA Pin=R?-2
+Added Pin To Net: NetName=SYS_5VA Pin=R?-2
+Added Pin To Net: NetName=SYS_5VA Pin=R?-2
+Added Pin To Net: NetName=SYS_5VA Pin=R?-2
+Added Pin To Net: NetName=SYS_5VA Pin=R?-2
+Added Pin To Net: NetName=SYS_5VA Pin=R?-2
+Added Net: Name=SYS_5VA
+Added Net: Name=SYS_5VB
+Added Pin To Net: NetName=VDD_3V3B Pin=C?-2
+Added Pin To Net: NetName=VDD_3V3B Pin=JP?-2
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3B Pin=R?-2
+Added Pin To Net: NetName=VDD_3V3B Pin=U?-8
+Added Net: Name=VDD_3V3B
+Added Pin To Net: NetName=VDD_5VB Pin=JP?-1
+Added Pin To Net: NetName=VDD_5VB Pin=JP?-1
+Added Pin To Net: NetName=VDD_5VB Pin=JP?-1
+Added Pin To Net: NetName=VDD_5VB Pin=JP?-1
+Added Net: Name=VDD_5VB
+Added Pin To Net: NetName=XDIR2 Pin=*-2
+Added Pin To Net: NetName=XDIR2 Pin=*-3
+Added Pin To Net: NetName=XDIR2 Pin=JP?-1
+Added Pin To Net: NetName=XDIR2 Pin=U?-15
+Added Net: Name=XDIR2
+Added Pin To Net: NetName=XDIR Pin=U?-6
+Added Net: Name=XDIR
+Added Pin To Net: NetName=XHOME2 Pin=*-11
+Added Pin To Net: NetName=XHOME2 Pin=*-21
+Added Pin To Net: NetName=XHOME2 Pin=JP?-2
+Added Pin To Net: NetName=XHOME2 Pin=U?-11
+Added Net: Name=XHOME2
+Added Pin To Net: NetName=XHOME Pin=U?-10
+Added Net: Name=XHOME
+Added Pin To Net: NetName=XMAX2 Pin=JP?-3
+Added Pin To Net: NetName=XMAX2 Pin=U?-13
+Added Net: Name=XMAX2
+Added Pin To Net: NetName=XMAX Pin=U?-8
+Added Net: Name=XMAX
+Added Pin To Net: NetName=XMIN2 Pin=JP?-2
+Added Pin To Net: NetName=XMIN2 Pin=U?-12
+Added Net: Name=XMIN2
+Added Pin To Net: NetName=XMIN Pin=U?-9
+Added Net: Name=XMIN
+Added Pin To Net: NetName=XSTEP2 Pin=*-3
+Added Pin To Net: NetName=XSTEP2 Pin=*-5
+Added Pin To Net: NetName=XSTEP2 Pin=JP?-2
+Added Pin To Net: NetName=XSTEP2 Pin=U?-16
+Added Net: Name=XSTEP2
+Added Pin To Net: NetName=XSTEP Pin=U?-5
+Added Net: Name=XSTEP
+Added Pin To Net: NetName=YDIR2 Pin=*-4
+Added Pin To Net: NetName=YDIR2 Pin=*-7
+Added Pin To Net: NetName=YDIR2 Pin=JP?-4
+Added Pin To Net: NetName=YDIR2 Pin=U?-11
+Added Net: Name=YDIR2
+Added Pin To Net: NetName=YDIR Pin=U?-10
+Added Net: Name=YDIR
+Added Pin To Net: NetName=YHOME2 Pin=*-12
+Added Pin To Net: NetName=YHOME2 Pin=*-23
+Added Pin To Net: NetName=YHOME2 Pin=JP?-3
+Added Pin To Net: NetName=YHOME2 Pin=U?-15
+Added Net: Name=YHOME2
+Added Pin To Net: NetName=YHOME Pin=U?-6
+Added Net: Name=YHOME
+Added Pin To Net: NetName=YMAX2 Pin=JP?-5
+Added Pin To Net: NetName=YMAX2 Pin=U?-18
+Added Pin To Net: NetName=YMAX2 Pin=U?-18
+Added Net: Name=YMAX2
+Added Pin To Net: NetName=YMAX Pin=U?-3
+Added Net: Name=YMAX
+Added Pin To Net: NetName=YMIN2 Pin=JP?-4
+Added Pin To Net: NetName=YMIN2 Pin=U?-14
+Added Net: Name=YMIN2
+Added Pin To Net: NetName=YMIN Pin=U?-7
+Added Net: Name=YMIN
+Added Pin To Net: NetName=YSTEP2 Pin=*-5
+Added Pin To Net: NetName=YSTEP2 Pin=*-9
+Added Pin To Net: NetName=YSTEP2 Pin=JP?-5
+Added Pin To Net: NetName=YSTEP2 Pin=U?-12
+Added Net: Name=YSTEP2
+Added Pin To Net: NetName=YSTEP Pin=U?-9
+Added Net: Name=YSTEP
+Added Pin To Net: NetName=ZDIR2 Pin=*-6
+Added Pin To Net: NetName=ZDIR2 Pin=*-11
+Added Pin To Net: NetName=ZDIR2 Pin=U?-18
+Added Net: Name=ZDIR2
+Added Pin To Net: NetName=ZDIR Pin=U?-3
+Added Net: Name=ZDIR
+Added Pin To Net: NetName=ZHOME2 Pin=*-13
+Added Pin To Net: NetName=ZHOME2 Pin=*-25
+Added Pin To Net: NetName=ZHOME2 Pin=JP?-4
+Added Pin To Net: NetName=ZHOME2 Pin=U?-12
+Added Pin To Net: NetName=ZHOME2 Pin=U?-17
+Added Net: Name=ZHOME2
+Added Pin To Net: NetName=ZHOME Pin=U?-4
+Added Pin To Net: NetName=ZHOME Pin=U?-9
+Added Net: Name=ZHOME
+Added Pin To Net: NetName=ZMAX2 Pin=JP?-3
+Added Pin To Net: NetName=ZMAX2 Pin=U?-14
+Added Net: Name=ZMAX2
+Added Pin To Net: NetName=ZMAX Pin=U?-7
+Added Net: Name=ZMAX
+Added Pin To Net: NetName=ZMIN2 Pin=JP?-2
+Added Pin To Net: NetName=ZMIN2 Pin=U?-13
+Added Net: Name=ZMIN2
+Added Pin To Net: NetName=ZMIN Pin=U?-8
+Added Net: Name=ZMIN
+Added Pin To Net: NetName=ZSTEP2 Pin=*-7
+Added Pin To Net: NetName=ZSTEP2 Pin=*-13
+Added Pin To Net: NetName=ZSTEP2 Pin=U?-16
+Added Net: Name=ZSTEP2
+Added Pin To Net: NetName=ZSTEP Pin=U?-5
+Added Net: Name=ZSTEP
+Added Class: Name=BBB_parport
+Added Room: Name=BBB_parport

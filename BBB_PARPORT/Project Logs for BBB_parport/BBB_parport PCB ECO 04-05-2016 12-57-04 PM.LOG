@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=SYS_5VB Pin=JP5-1
+Added Pin To Net: NetName=SYS_5VB Pin=JP6-1
+Added Pin To Net: NetName=SYS_5VB Pin=JP7-1
+Added Pin To Net: NetName=SYS_5VB Pin=JP8-1
+Added Pin To Net: NetName=5V Pin=R14-1
+Added Pin To Net: NetName=5V Pin=R24-1
+Added Pin To Net: NetName=5V Pin=R25-1
+Added Pin To Net: NetName=SYS_5VB Pin=RN9-1
+Added Pin To Net: NetName=SYS_5VB Pin=RN10-1
+Added Pin To Net: NetName=SYS_5VB Pin=RN11-1
+Added Pin To Net: NetName=SYS_5VB Pin=RN12-1
+Change Net Name : Old Net Name=5V New Net Name=VDD_5VB
+Added Member To Class: ClassName=BBB_parport Member=Component JP4 JP2
+Added Room: Name=BBB_parport

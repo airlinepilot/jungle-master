@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=JP3 Old Footprint=Domino6_381 New Footprint=head6
+Added Pin To Net: NetName=XHOME2 Pin=U1-11
+Added Pin To Net: NetName=XMIN2 Pin=U1-12
+Added Pin To Net: NetName=YDIR2 Pin=U4-11
+Added Pin To Net: NetName=YSTEP2 Pin=U4-12
+Added Pin To Net: NetName=ASTEP2 Pin=U5-11
+Added Pin To Net: NetName=ZHOME2 Pin=U5-12
+Added Pin To Net: NetName=SPINDLE_DIR2 Pin=U6-12
+Added Room: Name=BBB_parport

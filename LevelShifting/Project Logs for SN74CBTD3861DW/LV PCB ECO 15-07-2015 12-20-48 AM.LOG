@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=NetJP1_4 Pin=R1-2
+Removed Pin From Net: NetName=NetJP1_8 Pin=R2-2
+Removed Pin From Net: NetName=NetJP1_2 Pin=R3-2
+Removed Pin From Net: NetName=NetJP1_6 Pin=R4-2
+Removed Pin From Net: NetName=NetJP1_10 Pin=R5-2
+Removed Pin From Net: NetName=NetJP1_1 Pin=R6-2
+Removed Pin From Net: NetName=NetJP1_3 Pin=R7-2
+Removed Pin From Net: NetName=NetJP1_5 Pin=R8-2
+Removed Pin From Net: NetName=NetJP1_7 Pin=R9-2
+Removed Pin From Net: NetName=NetJP1_9 Pin=R10-2
+Added Pin To Net: NetName=NetJP1_1 Pin=R1-2
+Added Pin To Net: NetName=NetJP1_2 Pin=R2-2
+Added Pin To Net: NetName=NetJP1_3 Pin=R3-2
+Added Pin To Net: NetName=NetJP1_4 Pin=R4-2
+Added Pin To Net: NetName=NetJP1_5 Pin=R5-2
+Added Pin To Net: NetName=NetJP1_6 Pin=R6-2
+Added Pin To Net: NetName=NetJP1_7 Pin=R7-2
+Added Pin To Net: NetName=NetJP1_8 Pin=R8-2
+Added Pin To Net: NetName=NetJP1_9 Pin=R9-2
+Added Pin To Net: NetName=NetJP1_10 Pin=R10-2
+Added Room: Name=LV

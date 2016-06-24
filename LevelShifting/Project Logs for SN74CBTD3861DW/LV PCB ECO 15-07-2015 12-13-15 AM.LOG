@@ -1,0 +1,40 @@
+Added Component: Designator=R1(0805_R)
+Added Component: Designator=R2(0805_R)
+Added Component: Designator=R3(0805_R)
+Added Component: Designator=R4(0805_R)
+Added Component: Designator=R5(0805_R)
+Added Component: Designator=R6(0805_R)
+Added Component: Designator=R7(0805_R)
+Added Component: Designator=R8(0805_R)
+Added Component: Designator=R9(0805_R)
+Added Component: Designator=R10(0805_R)
+Added Pin To Net: NetName=VCC Pin=R1-1
+Added Pin To Net: NetName=NetJP1_4 Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=R2-1
+Added Pin To Net: NetName=NetJP1_8 Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=R3-1
+Added Pin To Net: NetName=NetJP1_2 Pin=R3-2
+Added Pin To Net: NetName=VCC Pin=R4-1
+Added Pin To Net: NetName=NetJP1_6 Pin=R4-2
+Added Pin To Net: NetName=VCC Pin=R5-1
+Added Pin To Net: NetName=NetJP1_10 Pin=R5-2
+Added Pin To Net: NetName=VCC Pin=R6-1
+Added Pin To Net: NetName=NetJP1_1 Pin=R6-2
+Added Pin To Net: NetName=VCC Pin=R7-1
+Added Pin To Net: NetName=NetJP1_3 Pin=R7-2
+Added Pin To Net: NetName=VCC Pin=R8-1
+Added Pin To Net: NetName=NetJP1_5 Pin=R8-2
+Added Pin To Net: NetName=VCC Pin=R9-1
+Added Pin To Net: NetName=NetJP1_7 Pin=R9-2
+Added Pin To Net: NetName=VCC Pin=R10-1
+Added Pin To Net: NetName=NetJP1_9 Pin=R10-2
+Added Member To Class: ClassName=LV Member=Component R1 0805_R
+Added Member To Class: ClassName=LV Member=Component R2 0805_R
+Added Member To Class: ClassName=LV Member=Component R3 0805_R
+Added Member To Class: ClassName=LV Member=Component R4 0805_R
+Added Member To Class: ClassName=LV Member=Component R5 0805_R
+Added Member To Class: ClassName=LV Member=Component R6 0805_R
+Added Member To Class: ClassName=LV Member=Component R7 0805_R
+Added Member To Class: ClassName=LV Member=Component R8 0805_R
+Added Member To Class: ClassName=LV Member=Component R9 0805_R
+Added Member To Class: ClassName=LV Member=Component R10 0805_R

@@ -1,0 +1,117 @@
+Change Component DesignItemId : Designator=S1 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S2 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S3 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S4 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S5 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S6 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S7 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S8 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S9 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S10 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S11 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S12 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S13 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S14 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S15 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S16 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S17 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S18 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S19 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S20 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=S21 Old DesignItemId=B3F-10XX New DesignItemId=10-XX
+Change Component DesignItemId : Designator=C1 Old DesignItemId=C0603 New DesignItemId=C-EUC0603
+Change Component DesignItemId : Designator=C2 Old DesignItemId=C0603 New DesignItemId=C-EUC0603
+Change Component DesignItemId : Designator=C3 Old DesignItemId=C0603 New DesignItemId=C-EUC0603
+Change Component DesignItemId : Designator=C4 Old DesignItemId=C0603 New DesignItemId=C-EUC0603
+Change Component DesignItemId : Designator=Q1 Old DesignItemId=HC49/US New DesignItemId=CSM-3X
+Change Component DesignItemId : Designator=R1 Old DesignItemId=R0603 New DesignItemId=R-US_R0603
+Change Component DesignItemId : Designator=R2 Old DesignItemId=R0603 New DesignItemId=R-US_R0603
+Change Component DesignItemId : Designator=R3 Old DesignItemId=R0603 New DesignItemId=R-US_R0603
+Change Component DesignItemId : Designator=R6 Old DesignItemId=R0603 New DesignItemId=R-US_R0603
+Change Component DesignItemId : Designator=U1 Old DesignItemId=SOIC-20 New DesignItemId=PIC18F1*K50SOIC
+Change Component Footprint: Designator=C1 Old Footprint=C0603 New Footprint=C0805
+Change Component Footprint: Designator=C2 Old Footprint=C0603 New Footprint=C0805
+Change Component Footprint: Designator=C4 Old Footprint=C0603 New Footprint=C0805
+Change Component Footprint: Designator=R1 Old Footprint=R0603 New Footprint=R0805
+Change Component Footprint: Designator=R2 Old Footprint=R0603 New Footprint=R0805
+Change Component Footprint: Designator=R3 Old Footprint=R0603 New Footprint=R0805
+Change Component Footprint: Designator=R6 Old Footprint=R0603 New Footprint=R0805
+Change Component Comment : Designator=S1 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S2 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S3 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S4 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S5 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S6 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S7 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S8 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S9 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S10 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S11 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S12 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S13 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S14 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S15 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S16 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S17 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S18 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S19 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S20 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=S21 Old Comment= New Comment=10-XX
+Change Component Comment : Designator=Q1 Old Comment= New Comment=12.0Mhz
+Change Component Comment : Designator=C1 Old Comment= New Comment=20pF
+Change Component Comment : Designator=C2 Old Comment= New Comment=20pF
+Change Component Comment : Designator=J2 Old Comment= New Comment=22-23-2051
+Change Component Comment : Designator=U1 Old Comment= New Comment=PIC18F1*K50SOIC
+Change Component Description : Designator=J1 Old Description= New Description=.100" (2.54mm) Center Header - 4 Pin
+Change Component Description : Designator=J2 Old Description= New Description=.100" (2.54mm) Center Header - 5 Pin
+Change Component Description : Designator=C3 Old Description= New Description=<B>CAPACITOR</B>, European symbol
+Change Component Description : Designator=S1 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S2 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S3 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S4 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S5 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S6 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S7 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S8 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S9 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S10 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S11 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S12 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S13 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S14 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S15 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S16 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S17 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S18 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S19 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S20 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Description : Designator=S21 Old Description= New Description=<b>OMRON SWITCH</b>
+Change Component Library : Designator=J1 Old Library= New Library=con-molex.IntLib
+Change Component Library : Designator=J2 Old Library= New Library=con-molex.IntLib
+Change Component Library : Designator=Q1 Old Library= New Library=crystal.IntLib
+Change Component Library : Designator=U1 Old Library= New Library=microchip.IntLib
+Change Component Library : Designator=C3 Old Library= New Library=rcl.IntLib
+Change Component Library : Designator=S1 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S2 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S3 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S4 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S5 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S6 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S7 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S8 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S9 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S10 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S11 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S12 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S13 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S14 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S15 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S16 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S17 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S18 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S19 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S20 Old Library= New Library=switch-omron.IntLib
+Change Component Library : Designator=S21 Old Library= New Library=switch-omron.IntLib
+Change Net Name : Old Net Name=N$2 New Net Name=NetC3_1
+Added Class: Name=CNC_Remote
+Added Room: Name=CNC_Remote

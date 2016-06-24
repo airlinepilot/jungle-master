@@ -1,0 +1,8 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"2";"";"M02PTH";"1X02";"JP1, JP3";"Header 2";"";
+"1";"";"PINHD-1X2/90";"1X02/90";"JP2";"PIN HEADER";"";
+"1";"150";"R-US_R0603";"R0603";"R1";"RESISTOR, American symbol";"";
+"2";"30";"R-US_R0603";"R0603";"R2, R3";"RESISTOR, American symbol";"";
+"1";"LITTLEFUSE_1812L110/33MR_PPTC";"LITTLEFUSE_1812L110/33MR_PPTC";"C1812";"PF1";"LittleFuse Inc 1812L110/33MR PPTC";"";
+"1";"LTST-C19FD1WT";"LTST-C19FD1WT";"LTST-C19FD1WT";"LD1";"LITE-ON Technology Corporation RGB LED";"";
+"1";"P2";"RASPI_GPIO_HEADER_P2(1-12)";"RASPBERRYPI_GPIO_HEADER(1-12)";"RPI";"Raspberry Pi Rev. 2 P2 Header (pins 1-12)";"";

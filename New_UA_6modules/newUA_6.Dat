@@ -1,0 +1,32 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~newUA_6.PrjPcb|ReportField=ProjectFullPath~C:\Users\HDTung\Desktop\design\altium\newUA_6_modules\newUA_6.PrjPcb|ReportField=Title~Bill of Materials For Project [newUA_6.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~60|ReportField=ReportTime~7:25:48 PM|ReportField=ReportDate~6/22/2016|ReportField=ReportDateTime~6/22/2016 7:25:48 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~Mr. Tung|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~Rev 1.0|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~Universal Adapter|ReportField=DataSourceFileName~newUA_6.PrjPcb|ReportField=DataSourceFullPath~C:\Users\HDTung\Desktop\design\altium\newUA_6_modules\newUA_6.PrjPcb
+Con8x2||CON1, CON2, CON3, CON4, CON5, CON6|HEAD8x2|Con8x2|6
+DOMINO1||D1|Domino2_small|Domino 2|1
+DOMINO2||D2|Domino2_small|Domino 2|1
+DOMINO3||D3|Domino2_small|Domino 2|1
+DOMINO4||D4|Domino2_small|Domino 2|1
+D5||D5|Domino2_small|Domino 2|1
+D6||D6|Domino2_small|Domino 2|1
+D7||D7|Domino2_small|Domino 2|1
+D8||D8|Domino2_small|Domino 2|1
+D9||D9|Domino2_small|Domino 2|1
+D10||D10|Domino2_small|Domino 2|1
+D11||D11|Domino2_small|Domino 2|1
+D12||D12|Domino2_small|Domino 2|1
+D13||D13|Domino2_small|Domino 2|1
+D14||D14|Domino2_small|Domino 2|1
+D15||D15|Domino2_small|Domino 2|1
+D16||D16|Domino2_small|Domino 2|1
+D17||D17|Domino2_small|Domino 2|1
+D18||D18|Domino2_small|Domino 2|1
+D19||D19|Domino2_small|Domino 2|1
+D20||D20|Domino2_small|Domino 2|1
+D21||D21|Domino2_small|Domino 2|1
+D22||D22|Domino2_small|Domino 2|1
+D23||D23|Domino2_small|Domino 2|1
+D24||D24|Domino2_small|Domino 2|1
+Hole 3mm||H1, H2, H3, H4, H5, H6, H7, H8, H9, H10, H11, H12|Hole_3mm|Hole_3mm|12
+CON-RJ45-10-RA|Right Angle, Standard Profile, External Shield PCB Jack|J1, J2, J3, J4, J5, J6|RJ45_tme|CON-RJ45-10-RA|6
+JP8|Connector 8|JP1, JP2, JP3, JP4, JP5, JP6|CON8mod|Con8|6
+Jungle1||Logo1|Jungle|Jungle|1
+Jungle2||Logo2|Jungle|Jungle|1
+Jungle||Logo3, Logo4, Logo5, Logo6|Jungle|Jungle|4

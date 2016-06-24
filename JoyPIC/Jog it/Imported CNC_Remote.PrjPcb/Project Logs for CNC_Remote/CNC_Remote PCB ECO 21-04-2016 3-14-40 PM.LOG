@@ -1,0 +1,5 @@
+Added Component: Designator=DY_LOGO1(DY_logo)
+Added Component: Designator=DY_LOGO(DY_logo)
+Added Member To Class: ClassName=CNC_Remote Member=Component DY_LOGO1 DY_LOGO
+Added Member To Class: ClassName=CNC_Remote Member=Component DY_LOGO
+Added Room: Name=CNC_Remote

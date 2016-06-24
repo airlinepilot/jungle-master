@@ -1,0 +1,10 @@
+Added Component: Designator=J1(RJ45)
+Added Pin To Net: NetName=1 Pin=J1-1
+Added Pin To Net: NetName=2 Pin=J1-2
+Added Pin To Net: NetName=3 Pin=J1-3
+Added Pin To Net: NetName=4 Pin=J1-4
+Added Pin To Net: NetName=5 Pin=J1-5
+Added Pin To Net: NetName=6 Pin=J1-6
+Added Pin To Net: NetName=7 Pin=J1-7
+Added Pin To Net: NetName=8 Pin=J1-8
+Added Member To Class: ClassName=UA Member=Component J1 CON-RJ45-10-RA

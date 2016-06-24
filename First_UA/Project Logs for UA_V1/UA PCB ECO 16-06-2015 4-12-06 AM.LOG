@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=D1 Old Footprint=DOMINO2 New Footprint=Domino2_small
+Change Component Footprint: Designator=D2 Old Footprint=DOMINO2 New Footprint=Domino2_small
+Change Component Footprint: Designator=D3 Old Footprint=DOMINO2 New Footprint=Domino2_small
+Change Component Footprint: Designator=D4 Old Footprint=DOMINO2 New Footprint=Domino2_small
+Added Room: Name=UA

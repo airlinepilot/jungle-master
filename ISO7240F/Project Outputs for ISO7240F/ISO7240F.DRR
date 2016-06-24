@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: ISO7240F.PcbDoc   20/07/2015  8:54:43 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ISO7240F.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        36mil (0.9144mm)         Round          12               2.54 Inch (64.44 mm)
+T2        68mil (1.7272mm)         Round          2                0.67 Inch (17.02 mm)
+T3        79mil (2.0066mm)         Round          2                0.67 Inch (17.02 mm)
+T4        118mil (2.9972mm)        Round          1                0.00 Inch (0.00 mm)
+---------------------------------------------------------------------------
+Totals                                            17               3.88 Inch (98.48 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

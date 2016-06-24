@@ -1,0 +1,55 @@
+Importer Log Report
+Project : CNC_Remote.PrjPcb
+
+Section : Analyze Document - E:\ThachJobJungle\Hardware\JoyPIC\Jog it\CNC_Remote.brd
+    Analyzing data of E:\ThachJobJungle\Hardware\JoyPIC\Jog it\CNC_Remote.brd
+    Load settings
+    Load layers 45
+    ERROR: Unhandled typepolygon
+    Load Library "microchip"
+    Load Packages 1
+    Load Library "crystal"
+    Load Packages 1
+    Load Library "rcl"
+    Load Packages 2
+    Load Library "switch-omron"
+    Load Packages 1
+    Load Library "con-molex"
+    Load Packages 2
+EndSection
+
+Section : Analyze Document - E:\ThachJobJungle\Hardware\JoyPIC\Jog it\CNC_Remote.sch
+    Analyzing data of E:\ThachJobJungle\Hardware\JoyPIC\Jog it\CNC_Remote.sch
+    Load settings
+    Load layers 45
+    Load schematic
+    Load Libraries 6
+    Load Library "microchip"
+    Load Packages 2
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "crystal"
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "rcl"
+    Load Packages 164
+    Load Symbols 2
+    Load DeviceSets 2
+    Load Library "switch-omron"
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "con-molex"
+    Load Packages 2
+    Load Symbols 2
+    Load DeviceSets 2
+    Load Library "supply1"
+    Load Packages 0
+    Load Symbols 2
+    Load DeviceSets 2
+    Load Attributes 0
+    Load Classes 1
+    Load Parts 47
+    Load Sheets 1
+EndSection

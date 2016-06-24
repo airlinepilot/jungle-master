@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [BotqueueIndicator.PrjPcb]
+   Generated File[BotInd.TXT]
+   Generated File[BotInd.LDP]
+   Generated File[BotInd.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:44:20 AM On 11/03/2016

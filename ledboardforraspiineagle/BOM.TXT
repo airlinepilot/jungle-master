@@ -1,0 +1,19 @@
+Partlist
+
+Exported from RPiCluster-Power-LED.brd at 14/08/2015 1:33:05 PM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value                         Package                       Library                     Position (mm)         Orientation
+
+JP1                                    1X02                          SparkFun                    (-1.9304 7.9248)      R90
+JP2                                    1X02/90                       pinhead                     (-1.8796 16.9672)     R0
+JP3                                    1X02                          SparkFun                    (0.0762 3.2512)       R90
+LD1      LTST-C19FD1WT                 LTST-C19FD1WT                 Dr_Loos_Laboratory_Complete (-5.0218 1.3006)      R0
+PF1      LITTLEFUSE_1812L110/33MR_PPTC C1812                         dcgi                        (-6.03 13.78)         MR90
+R1       150                           R0603                         rcl                         (-5.6926 4.242)       R270
+R2       30                            R0603                         rcl                         (-7.1338 4.2652)      R270
+R3       30                            R0603                         rcl                         (-4.3142 4.242)       R270
+RPI      P2                            RASPBERRYPI_GPIO_HEADER(1-12) Dr_Loos_Laboratory_Complete (3.81 8.89)           MR90

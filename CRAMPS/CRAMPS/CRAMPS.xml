@@ -1,0 +1,3014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/Learning/doc/Study/Doc_HCMUT/MediaFire/MrYoung/Doc/BeagleCapes/bobc_hardware-CRAMPS-v2.2.1/CRAMPS/CRAMPS.sch</source>
+    <date>03/08/2015 11:14:09 PM</date>
+    <tool>Eeschema (after 2015-may-25 BZR unknown)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CRAMPS (Cape-RAMPS for BeagleBone)</title>
+        <company/>
+        <rev>v2.2</rev>
+        <date>25 may 2014</date>
+        <source>CRAMPS.sch</source>
+        <comment number="1" value="Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"/>
+        <comment number="2" value="Derived from RAMPS-FD by Bob Cousins"/>
+        <comment number="3" value="Copyright 2014 GPL v3"/>
+        <comment number="4" value="CRAMPS by Charles Steinkuehler and Murray Lindeblom"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Stepper Drivers/" tstamps="/50FC2853/">
+      <title_block>
+        <title>CRAMPS (Cape-RAMPS for BeagleBone)</title>
+        <company/>
+        <rev>v2.2</rev>
+        <date>25 may 2014</date>
+        <source>steppers.sch</source>
+        <comment number="1" value="Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"/>
+        <comment number="2" value="Derived from RAMPS-FD by Bob Cousins"/>
+        <comment number="3" value="Copyright 2014 GPL v3"/>
+        <comment number="4" value="CRAMPS by Charles Steinkuehler and Murray Lindeblom"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Emergency Stop/" tstamps="/5239FA54/">
+      <title_block>
+        <title>CRAMPS (Cape-RAMPS for BeagleBone)</title>
+        <company/>
+        <rev>v2.2</rev>
+        <date>25 may 2014</date>
+        <source>e-stop.sch</source>
+        <comment number="1" value="Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"/>
+        <comment number="2" value="Derived from RAMPS-FD by Bob Cousins"/>
+        <comment number="3" value="Copyright 2014 GPL v3"/>
+        <comment number="4" value="CRAMPS by Charles Steinkuehler and Murray Lindeblom"/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Mosfet Outputs/" tstamps="/50FC3D20/">
+      <title_block>
+        <title>CRAMPS (Cape-RAMPS for BeagleBone)</title>
+        <company/>
+        <rev>v2.2</rev>
+        <date>25 may 2014</date>
+        <source>con_outputs.sch</source>
+        <comment number="1" value="Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"/>
+        <comment number="2" value="Derived from RAMPS-FD by Bob Cousins"/>
+        <comment number="3" value="Copyright 2014 GPL v3"/>
+        <comment number="4" value="CRAMPS by Charles Steinkuehler and Murray Lindeblom"/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Inputs/" tstamps="/50FC37D4/">
+      <title_block>
+        <title>CRAMPS (Cape-RAMPS for BeagleBone)</title>
+        <company/>
+        <rev>v2.2</rev>
+        <date>25 may 2014</date>
+        <source>con_inputs.sch</source>
+        <comment number="1" value="Derived from RAMPS 1.4 reprap.org/wiki/RAMPS1.4"/>
+        <comment number="2" value="Derived from RAMPS-FD by Bob Cousins"/>
+        <comment number="3" value="Copyright 2014 GPL v3"/>
+        <comment number="4" value="CRAMPS by Charles Steinkuehler and Murray Lindeblom"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M102">
+      <value>LOGO_OSHW</value>
+      <footprint>PCB_GREEN_RMC</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Part of PCB</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="LOGO_OSHW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510E82F9</tstamp>
+    </comp>
+    <comp ref="LD101">
+      <value>Yellow</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LY Q976-P1S2-36</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>50FC24D8</tstamp>
+    </comp>
+    <comp ref="M101">
+      <value>PCB_GREEN_RMC</value>
+      <footprint>OSHW_logo_2</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Part of PCB</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="PCB_GREEN_RMC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>523E4D4E</tstamp>
+    </comp>
+    <comp ref="SW102">
+      <value>SW_PUSH</value>
+      <footprint>SW_6x6_MULTI</footprint>
+      <fields>
+        <field name="Mfg">TE</field>
+        <field name="PartNo">FSM2JH</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="SW_PUSH-RESCUE-CRAMPS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52EECC28</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>HEADER_2</value>
+      <footprint>pin_strip_2</footprint>
+      <fields>
+        <field name="Mfg">Harwin</field>
+        <field name="PartNo">M20-9990245</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>532B2BE3</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_PUSH</value>
+      <footprint>SW_6x6_MULTI</footprint>
+      <fields>
+        <field name="Mfg">TE</field>
+        <field name="PartNo">FSM2JH</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="SW_PUSH-RESCUE-CRAMPS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>532B2D4D</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>HEADER_2</value>
+      <footprint>pin_strip_2</footprint>
+      <fields>
+        <field name="Mfg">Harwin</field>
+        <field name="PartNo">M20-9990245</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>532B2D53</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>330R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT330R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD3300F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>532B2DC0</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>2N7002K</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">2N7002K-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>532B31E8</tstamp>
+    </comp>
+    <comp ref="LD102">
+      <value>Green</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LG Q971-KN-1</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>532B490E</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>330R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT330R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD3300F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>532B491B</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>BB_EXP_CONN</value>
+      <footprint>P8P9_PinHeader</footprint>
+      <fields>
+        <field name="Mfg">Major League</field>
+        <field name="PartNo">TSHC-123-D-06-240-GT-LF</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="BB_EXP_CONN_P8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>533029B2</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>BB_EXP_CONN</value>
+      <footprint>P8P9_PinHeader</footprint>
+      <fields>
+        <field name="Mfg">Major League</field>
+        <field name="PartNo">TSHC-123-D-06-240-GT-LF</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="BB_EXP_CONN_P9"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>533029C1</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>SOCKET_6_LONG</value>
+      <footprint>pin_strip_6</footprint>
+      <fields>
+        <field name="Mfg">Sparkfun</field>
+        <field name="PartNo">PRT-09280</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5330543C</tstamp>
+    </comp>
+    <comp ref="BB101">
+      <value>BeagleBone Black</value>
+      <footprint>BeagleBone-Pins</footprint>
+      <fields>
+        <field name="Mfg">CircuitCo</field>
+        <field name="PartNo">BB-BBLK-000</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="BEAGLEBONE-MTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>535D6E77</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>100u 35V</value>
+      <footprint>c_elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Mfg">Nichicon</field>
+        <field name="PartNo">UCD1V101MCL6GS</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>50FC3200</tstamp>
+    </comp>
+    <comp ref="P202">
+      <value>KK-2.54-4W</value>
+      <footprint>CONN_KK_2.54_4W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2041</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_4"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>53289CF0</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>100u 35V</value>
+      <footprint>c_elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Mfg">Nichicon</field>
+        <field name="PartNo">UCD1V101MCL6GS</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A20D</tstamp>
+    </comp>
+    <comp ref="P203">
+      <value>KK-2.54-4W</value>
+      <footprint>CONN_KK_2.54_4W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2041</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_4"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A21D</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>100u 35V</value>
+      <footprint>c_elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Mfg">Nichicon</field>
+        <field name="PartNo">UCD1V101MCL6GS</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A29A</tstamp>
+    </comp>
+    <comp ref="P204">
+      <value>KK-2.54-4W</value>
+      <footprint>CONN_KK_2.54_4W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2041</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_4"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A2AA</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>100u 35V</value>
+      <footprint>c_elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Mfg">Nichicon</field>
+        <field name="PartNo">UCD1V101MCL6GS</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A63F</tstamp>
+    </comp>
+    <comp ref="P205">
+      <value>KK-2.54-4W</value>
+      <footprint>CONN_KK_2.54_4W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2041</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_4"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A64F</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>100u 35V</value>
+      <footprint>c_elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Mfg">Nichicon</field>
+        <field name="PartNo">UCD1V101MCL6GS</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A69E</tstamp>
+    </comp>
+    <comp ref="P206">
+      <value>KK-2.54-4W</value>
+      <footprint>CONN_KK_2.54_4W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2041</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_4"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A6AE</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>100u 35V</value>
+      <footprint>c_elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Mfg">Nichicon</field>
+        <field name="PartNo">UCD1V101MCL6GS</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A6FD</tstamp>
+    </comp>
+    <comp ref="P207">
+      <value>KK-2.54-4W</value>
+      <footprint>CONN_KK_2.54_4W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2041</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_4"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5328A70D</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>100k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT100K</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1003F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>532AE947</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>100k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT100K</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1003F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>532AEC7A</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>100k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT100K</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1003F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>532AEEBA</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>100k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT100K</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1003F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>532AF146</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>100k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT100K</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1003F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>532AF445</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>100k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT100K</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1003F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>532AF748</tstamp>
+    </comp>
+    <comp ref="FH201">
+      <value>FUSE-HOLDER</value>
+      <footprint>Keystone-3568</footprint>
+      <fields>
+        <field name="Mfg">Keystone</field>
+        <field name="PartNo">3568</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FUSE-HOLDER"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>53305633</tstamp>
+    </comp>
+    <comp ref="P201">
+      <value>PT_2,5-2-5,0-H</value>
+      <footprint>PT_2,5-2-5,0-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1935776</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>5330563F</tstamp>
+    </comp>
+    <comp ref="F201">
+      <value>10A</value>
+      <footprint>Fuse-Loose</footprint>
+      <fields>
+        <field name="Mfg">Littlefuse</field>
+        <field name="PartNo">0297010.WXNV</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FUSE-LOOSE"/>
+      <sheetpath names="/Stepper Drivers/" tstamps="/50FC2853/"/>
+      <tstamp>53616EB5</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>100n</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Murata</field>
+        <field name="PartNo">GRM188R71C104KA01D</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>51E4F640</tstamp>
+    </comp>
+    <comp ref="LD302">
+      <value>Red</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B3294</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>220R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT220R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2200F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B32A1</tstamp>
+    </comp>
+    <comp ref="Q303">
+      <value>2N7002K</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">2N7002K-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FET_N"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B32AA</tstamp>
+    </comp>
+    <comp ref="Q302">
+      <value>2N7002K</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">2N7002K-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FET_N"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B3494</tstamp>
+    </comp>
+    <comp ref="Q304">
+      <value>2N7002K</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">2N7002K-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FET_N"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B356E</tstamp>
+    </comp>
+    <comp ref="P302">
+      <value>KK-2.54-2W</value>
+      <footprint>CONN_KK_2.54_2W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2021</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B3645</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B3F20</tstamp>
+    </comp>
+    <comp ref="LD301">
+      <value>Green</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LG Q971-KN-1</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B48CF</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>330R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT330R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD3300F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B48DC</tstamp>
+    </comp>
+    <comp ref="Q301">
+      <value>2N7002K</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">2N7002K-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FET_N"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>532B48E5</tstamp>
+    </comp>
+    <comp ref="U302">
+      <value>74ACT244</value>
+      <footprint>SOIC127P1032X265-20N</footprint>
+      <fields>
+        <field name="Mfg">Fairchild</field>
+        <field name="PartNo">74ACT244SCX</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="74HC244"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>53309257</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>100n</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Murata</field>
+        <field name="PartNo">GRM188R71C104KA01D</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>53319950</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>24C256</value>
+      <footprint>SOIC127P600X175-8AN</footprint>
+      <fields>
+        <field name="Mfg">On Semi</field>
+        <field name="PartNo">CAT24C256WI-GT3</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="24C512-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>533199A1</tstamp>
+    </comp>
+    <comp ref="P305">
+      <value>HEADER_6</value>
+      <footprint>pin_strip_6</footprint>
+      <fields>
+        <field name="Mfg">Harwin</field>
+        <field name="PartNo">M20-9990645</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_6"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>5331974F</tstamp>
+    </comp>
+    <comp ref="P301">
+      <value>HEADER_2</value>
+      <footprint>pin_strip_2</footprint>
+      <fields>
+        <field name="Mfg">Harwin</field>
+        <field name="PartNo">M20-9990245</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F148C</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>2K7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F804C</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F8AF2</tstamp>
+    </comp>
+    <comp ref="R314">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9709</tstamp>
+    </comp>
+    <comp ref="R310">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9CAF</tstamp>
+    </comp>
+    <comp ref="R309">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9CE7</tstamp>
+    </comp>
+    <comp ref="R311">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9CF1</tstamp>
+    </comp>
+    <comp ref="R312">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9CFB</tstamp>
+    </comp>
+    <comp ref="R313">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9D05</tstamp>
+    </comp>
+    <comp ref="R315">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9D0F</tstamp>
+    </comp>
+    <comp ref="R316">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535F9D19</tstamp>
+    </comp>
+    <comp ref="R308">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535FD2CA</tstamp>
+    </comp>
+    <comp ref="R306">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535FDB27</tstamp>
+    </comp>
+    <comp ref="R307">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>535FDB31</tstamp>
+    </comp>
+    <comp ref="Q305">
+      <value>2N7002K</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">2N7002K-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FET_N"/>
+      <sheetpath names="/Emergency Stop/" tstamps="/5239FA54/"/>
+      <tstamp>537F5F16</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>SS14</value>
+      <footprint>DIOM5127X229N</footprint>
+      <fields>
+        <field name="Mfg">Vishay</field>
+        <field name="PartNo">SS14-E3/61T</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="DIODE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>51A9D334</tstamp>
+    </comp>
+    <comp ref="Q401">
+      <value>IRLB8743PBF</value>
+      <footprint>TO-220AB_IRF2804_RMC</footprint>
+      <fields>
+        <field name="Mfg">International Rectifier</field>
+        <field name="PartNo">IRLB8743PBF</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="MOSFET_N_RMC"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>510E6DBE</tstamp>
+    </comp>
+    <comp ref="LD401">
+      <value>Yellow</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LY Q976-P1S2-36</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>510478C6</tstamp>
+    </comp>
+    <comp ref="P403">
+      <value>PT_2,5-2-5,0-H</value>
+      <footprint>PT_2,5-2-5,0-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1935776</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5329974F</tstamp>
+    </comp>
+    <comp ref="D405">
+      <value>SS14</value>
+      <footprint>DIOM5127X229N</footprint>
+      <fields>
+        <field name="Mfg">Vishay</field>
+        <field name="PartNo">SS14-E3/61T</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="DIODE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299C1A</tstamp>
+    </comp>
+    <comp ref="Q405">
+      <value>IRLB8743PBF</value>
+      <footprint>TO-220AB_IRF2804_RMC</footprint>
+      <fields>
+        <field name="Mfg">International Rectifier</field>
+        <field name="PartNo">IRLB8743PBF</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="MOSFET_N_RMC"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299C22</tstamp>
+    </comp>
+    <comp ref="LD405">
+      <value>Yellow</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LY Q976-P1S2-36</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299C30</tstamp>
+    </comp>
+    <comp ref="P408">
+      <value>PT_1,5-2-3,5-H</value>
+      <footprint>PT_1,5-2-3,5-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1984617</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299C52</tstamp>
+    </comp>
+    <comp ref="F402">
+      <value>10A</value>
+      <footprint>Fuse-Loose</footprint>
+      <fields>
+        <field name="Mfg">Littlefuse</field>
+        <field name="PartNo">0297010.WXNV</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FUSE-LOOSE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5362B0C5</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>SS14</value>
+      <footprint>DIOM5127X229N</footprint>
+      <fields>
+        <field name="Mfg">Vishay</field>
+        <field name="PartNo">SS14-E3/61T</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="DIODE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299E72</tstamp>
+    </comp>
+    <comp ref="Q402">
+      <value>IRLB8743PBF</value>
+      <footprint>TO-220AB_IRF2804_RMC</footprint>
+      <fields>
+        <field name="Mfg">International Rectifier</field>
+        <field name="PartNo">IRLB8743PBF</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="MOSFET_N_RMC"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299E7A</tstamp>
+    </comp>
+    <comp ref="LD402">
+      <value>Yellow</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LY Q976-P1S2-36</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299E88</tstamp>
+    </comp>
+    <comp ref="P405">
+      <value>PT_1,5-2-3,5-H</value>
+      <footprint>PT_1,5-2-3,5-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1984617</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299EAA</tstamp>
+    </comp>
+    <comp ref="D403">
+      <value>SS14</value>
+      <footprint>DIOM5127X229N</footprint>
+      <fields>
+        <field name="Mfg">Vishay</field>
+        <field name="PartNo">SS14-E3/61T</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="DIODE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299EE9</tstamp>
+    </comp>
+    <comp ref="Q403">
+      <value>IRLB8743PBF</value>
+      <footprint>TO-220AB_IRF2804_RMC</footprint>
+      <fields>
+        <field name="Mfg">International Rectifier</field>
+        <field name="PartNo">IRLB8743PBF</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="MOSFET_N_RMC"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299EF1</tstamp>
+    </comp>
+    <comp ref="LD403">
+      <value>Yellow</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LY Q976-P1S2-36</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299EFF</tstamp>
+    </comp>
+    <comp ref="P406">
+      <value>PT_1,5-2-3,5-H</value>
+      <footprint>PT_1,5-2-3,5-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1984617</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299F21</tstamp>
+    </comp>
+    <comp ref="D404">
+      <value>SS14</value>
+      <footprint>DIOM5127X229N</footprint>
+      <fields>
+        <field name="Mfg">Vishay</field>
+        <field name="PartNo">SS14-E3/61T</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="DIODE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299F79</tstamp>
+    </comp>
+    <comp ref="LD404">
+      <value>Yellow</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LY Q976-P1S2-36</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299F8F</tstamp>
+    </comp>
+    <comp ref="P407">
+      <value>KK-2.54-2W</value>
+      <footprint>CONN_KK_2.54_2W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2021</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299FB1</tstamp>
+    </comp>
+    <comp ref="D406">
+      <value>SS14</value>
+      <footprint>DIOM5127X229N</footprint>
+      <fields>
+        <field name="Mfg">Vishay</field>
+        <field name="PartNo">SS14-E3/61T</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="DIODE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299FC7</tstamp>
+    </comp>
+    <comp ref="LD406">
+      <value>Yellow</value>
+      <footprint>OSRAM-LED-0603</footprint>
+      <fields>
+        <field name="Mfg">Osram</field>
+        <field name="PartNo">LY Q976-P1S2-36</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299FDD</tstamp>
+    </comp>
+    <comp ref="P409">
+      <value>KK-2.54-2W</value>
+      <footprint>CONN_KK_2.54_2W</footprint>
+      <fields>
+        <field name="Mfg">Molex</field>
+        <field name="PartNo">22-23-2021</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53299FFF</tstamp>
+    </comp>
+    <comp ref="Q404">
+      <value>DMN2075U</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">DMN2075U-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="MOS_N"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5329A04C</tstamp>
+    </comp>
+    <comp ref="Q406">
+      <value>DMN2075U</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Mfg">Diodes Inc.</field>
+        <field name="PartNo">DMN2075U-7</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="MOS_N"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5329A105</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>2K7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3548</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>2K7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3571</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>220R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT220R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2200F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3877</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>220R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT220R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2200F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B38D7</tstamp>
+    </comp>
+    <comp ref="R410">
+      <value>2K7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B38F6</tstamp>
+    </comp>
+    <comp ref="R409">
+      <value>220R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT220R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2200F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3A46</tstamp>
+    </comp>
+    <comp ref="R408">
+      <value>2K7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3A65</tstamp>
+    </comp>
+    <comp ref="R407">
+      <value>220R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT220R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2200F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3C2B</tstamp>
+    </comp>
+    <comp ref="R412">
+      <value>2K7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3C36</tstamp>
+    </comp>
+    <comp ref="R411">
+      <value>220R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT220R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2200F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3DDA</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>2K7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B3DE5</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>220R</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT220R</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2200F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>532B400F</tstamp>
+    </comp>
+    <comp ref="FH401">
+      <value>FUSE-HOLDER</value>
+      <footprint>Keystone-3568</footprint>
+      <fields>
+        <field name="Mfg">Keystone</field>
+        <field name="PartNo">3568</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FUSE-HOLDER"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53305AF0</tstamp>
+    </comp>
+    <comp ref="P401">
+      <value>PT_2,5-2-5,0-H</value>
+      <footprint>PT_2,5-2-5,0-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1935776</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53305AFA</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>100u 35V</value>
+      <footprint>c_elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Mfg">Nichicon</field>
+        <field name="PartNo">UCD1V101MCL6GS</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>533060BF</tstamp>
+    </comp>
+    <comp ref="FH402">
+      <value>FUSE-HOLDER</value>
+      <footprint>Keystone-3568</footprint>
+      <fields>
+        <field name="Mfg">Keystone</field>
+        <field name="PartNo">3568</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FUSE-HOLDER"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>533060C7</tstamp>
+    </comp>
+    <comp ref="P402">
+      <value>PT_2,5-2-5,0-H</value>
+      <footprint>PT_2,5-2-5,0-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1935776</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_2"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>533060D4</tstamp>
+    </comp>
+    <comp ref="P404">
+      <value>PT_1,5-3-3,5-H</value>
+      <footprint>PT_1,5-3-3,5-H</footprint>
+      <fields>
+        <field name="Mfg">Phoenix</field>
+        <field name="PartNo">1984620</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_3"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>535F1C4B</tstamp>
+    </comp>
+    <comp ref="F401">
+      <value>15A</value>
+      <footprint>Fuse-Loose</footprint>
+      <fields>
+        <field name="Mfg">Littlefuse</field>
+        <field name="PartNo">0297015.WXNV</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="FUSE-LOOSE"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53616FF4</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>None</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Do Not Populate</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>53679C35</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>None</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Do Not Populate</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5367A11A</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>None</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Do Not Populate</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5367A385</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>None</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Do Not Populate</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5367A681</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>None</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Do Not Populate</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5367AE51</tstamp>
+    </comp>
+    <comp ref="C407">
+      <value>None</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">N/A</field>
+        <field name="PartNo">Do Not Populate</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Mosfet Outputs/" tstamps="/50FC3D20/"/>
+      <tstamp>5367AE59</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>100n</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Murata</field>
+        <field name="PartNo">GRM188R71C104KA01D</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>510D87AD</tstamp>
+    </comp>
+    <comp ref="P501">
+      <value>HEADER_6</value>
+      <footprint>pin_strip_6</footprint>
+      <fields>
+        <field name="Mfg">Harwin</field>
+        <field name="PartNo">M20-9990645</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="HEADER_6"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C625F</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>100n</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Murata</field>
+        <field name="PartNo">GRM188R71C104KA01D</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5915</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>100n</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Murata</field>
+        <field name="PartNo">GRM188R71C104KA01D</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C591D</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>100n</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Murata</field>
+        <field name="PartNo">GRM188R71C104KA01D</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5925</tstamp>
+    </comp>
+    <comp ref="C505">
+      <value>100n</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Murata</field>
+        <field name="PartNo">GRM188R71C104KA01D</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C592E</tstamp>
+    </comp>
+    <comp ref="C509">
+      <value>10u</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Taiyo Yuden</field>
+        <field name="PartNo">JMK107ABJ106MAHT</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5936</tstamp>
+    </comp>
+    <comp ref="C508">
+      <value>10u</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Taiyo Yuden</field>
+        <field name="PartNo">JMK107ABJ106MAHT</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5941</tstamp>
+    </comp>
+    <comp ref="C507">
+      <value>10u</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Taiyo Yuden</field>
+        <field name="PartNo">JMK107ABJ106MAHT</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5949</tstamp>
+    </comp>
+    <comp ref="C506">
+      <value>10u</value>
+      <footprint>CAPC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Taiyo Yuden</field>
+        <field name="PartNo">JMK107ABJ106MAHT</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5953</tstamp>
+    </comp>
+    <comp ref="JP501">
+      <value>HEADER_2</value>
+      <footprint>pin_strip_2</footprint>
+      <fields>
+        <field name="Mfg">Harwin</field>
+        <field name="PartNo">M20-9990245</field>
+      </fields>
+      <libsource lib="CRAMPS-cache" part="JUMP_MINI"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5968</tstamp>
+    </comp>
+    <comp ref="R515">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5979</tstamp>
+    </comp>
+    <comp ref="R516">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5983</tstamp>
+    </comp>
+    <comp ref="R517">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C598D</tstamp>
+    </comp>
+    <comp ref="R518">
+      <value>4k7</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT4K70</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD4701F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C5997</tstamp>
+    </comp>
+    <comp ref="R511">
+      <value>2K0 1%</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K00</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2001F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C59A1</tstamp>
+    </comp>
+    <comp ref="R512">
+      <value>2K0 1%</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K00</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2001F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C59AB</tstamp>
+    </comp>
+    <comp ref="R513">
+      <value>2K0 1%</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K00</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2001F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C59B5</tstamp>
+    </comp>
+    <comp ref="R514">
+      <value>2K0 1%</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT2K00</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD2001F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>532C59BF</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>74CBTD3861</value>
+      <footprint>SOIC127P1030X265-24N</footprint>
+      <fields>
+        <field name="Mfg">TI</field>
+        <field name="Field5">SN74CBTD3861DW</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="74CBTLV3861-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>53303067</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDE93</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDE9D</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDEA7</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDEB1</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDEBB</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDEC5</tstamp>
+    </comp>
+    <comp ref="R507">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDED2</tstamp>
+    </comp>
+    <comp ref="R508">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDEDC</tstamp>
+    </comp>
+    <comp ref="R509">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDEE6</tstamp>
+    </comp>
+    <comp ref="R510">
+      <value>10k</value>
+      <footprint>RESC1608x55N</footprint>
+      <fields>
+        <field name="Mfg">Stackpole</field>
+        <field name="PartNo">RMCF0603FT10K0</field>
+        <field name="AltMfg">KOA</field>
+        <field name="AltPartNo">RK73H1JTTD1002F</field>
+      </fields>
+      <libsource lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS"/>
+      <sheetpath names="/Inputs/" tstamps="/50FC37D4/"/>
+      <tstamp>535FDEF0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CRAMPS-rescue" part="SW_PUSH-RESCUE-CRAMPS">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH-RESCUE-CRAMPS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-rescue" part="24C512-RESCUE-CRAMPS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24C512-RESCUE-CRAMPS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-rescue" part="74CBTLV3861-RESCUE-CRAMPS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74CBTLV3861-RESCUE-CRAMPS</field>
+      </fields>
+      <pins>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="A5" type="BiDi"/>
+        <pin num="7" name="A6" type="BiDi"/>
+        <pin num="8" name="A7" type="BiDi"/>
+        <pin num="9" name="A8" type="BiDi"/>
+        <pin num="10" name="A9" type="BiDi"/>
+        <pin num="11" name="A10" type="BiDi"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="B10" type="BiDi"/>
+        <pin num="14" name="B9" type="BiDi"/>
+        <pin num="15" name="B8" type="BiDi"/>
+        <pin num="16" name="B7" type="BiDi"/>
+        <pin num="17" name="B6" type="BiDi"/>
+        <pin num="18" name="B5" type="BiDi"/>
+        <pin num="19" name="B4" type="BiDi"/>
+        <pin num="20" name="B3" type="BiDi"/>
+        <pin num="21" name="B2" type="BiDi"/>
+        <pin num="22" name="B1" type="BiDi"/>
+        <pin num="23" name="~OE" type="input"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-rescue" part="CP1-RESCUE-CRAMPS">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-RESCUE-CRAMPS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-rescue" part="LED-RESCUE-CRAMPS">
+      <fields>
+        <field name="Reference">LD</field>
+        <field name="Value">LED-RESCUE-CRAMPS</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-rescue" part="R-RESCUE-CRAMPS">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-CRAMPS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-rescue" part="C-RESCUE-CRAMPS">
+      <footprints>
+        <fp>C?</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-CRAMPS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="BEAGLEBONE-MTG">
+      <fields>
+        <field name="Reference">BB</field>
+        <field name="Value">BEAGLEBONE-MTG</field>
+      </fields>
+      <pins>
+        <pin num="M1" name="Mtg" type="passive"/>
+        <pin num="M2" name="Mtg" type="passive"/>
+        <pin num="M3" name="Mtg" type="passive"/>
+        <pin num="M4" name="Mtg" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="HEADER_6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="FUSE-LOOSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE-LOOSE</field>
+      </fields>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="BB_EXP_CONN_P9">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BB_EXP_CONN_P9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DGND" type="passive"/>
+        <pin num="2" name="DGND" type="passive"/>
+        <pin num="3" name="VDD_3V3EXP" type="passive"/>
+        <pin num="4" name="VDD_3V3EXP" type="passive"/>
+        <pin num="5" name="VDD_5V" type="passive"/>
+        <pin num="6" name="VDD_5V" type="passive"/>
+        <pin num="7" name="SYS_5V" type="passive"/>
+        <pin num="8" name="SYS_5V" type="passive"/>
+        <pin num="9" name="PWR_BUT" type="BiDi"/>
+        <pin num="10" name="SYS_RESETn" type="BiDi"/>
+        <pin num="11" name="UART4_RXD" type="BiDi"/>
+        <pin num="12" name="GPIO1_28" type="BiDi"/>
+        <pin num="13" name="UART4_TXD" type="BiDi"/>
+        <pin num="14" name="EHRPWM1A" type="BiDi"/>
+        <pin num="15" name="GPIO1_16" type="BiDi"/>
+        <pin num="16" name="EHRPWM1B" type="BiDi"/>
+        <pin num="17" name="I2C1_SCL" type="BiDi"/>
+        <pin num="18" name="I2C1_SDA" type="BiDi"/>
+        <pin num="19" name="I2C2_SCL" type="BiDi"/>
+        <pin num="20" name="I2C2_SDA" type="BiDi"/>
+        <pin num="21" name="UART2_TXD" type="BiDi"/>
+        <pin num="22" name="UART2_RXD" type="BiDi"/>
+        <pin num="23" name="GPIO1_17" type="BiDi"/>
+        <pin num="24" name="UART1_TXD" type="BiDi"/>
+        <pin num="25" name="GPIO3_21" type="BiDi"/>
+        <pin num="26" name="UART1_RXD" type="BiDi"/>
+        <pin num="27" name="GPIO3_19" type="BiDi"/>
+        <pin num="28" name="SPI1_CS0" type="BiDi"/>
+        <pin num="29" name="SPI1_D0" type="BiDi"/>
+        <pin num="30" name="SPI1_D1" type="BiDi"/>
+        <pin num="31" name="SPI1_SCLK" type="BiDi"/>
+        <pin num="32" name="VDD_ADC" type="BiDi"/>
+        <pin num="33" name="AIN4" type="BiDi"/>
+        <pin num="34" name="GNDA_ADC" type="BiDi"/>
+        <pin num="35" name="AIN6" type="BiDi"/>
+        <pin num="36" name="AIN5" type="BiDi"/>
+        <pin num="37" name="AIN2" type="BiDi"/>
+        <pin num="38" name="AIN3" type="BiDi"/>
+        <pin num="39" name="AIN0" type="BiDi"/>
+        <pin num="40" name="AIN1" type="BiDi"/>
+        <pin num="41" name="CLKOUT2" type="BiDi"/>
+        <pin num="42" name="GPIO0_7" type="BiDi"/>
+        <pin num="43" name="DGND" type="passive"/>
+        <pin num="44" name="DGND" type="passive"/>
+        <pin num="45" name="DGND" type="passive"/>
+        <pin num="46" name="DGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="74HC244">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC244</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~1G" type="passive"/>
+        <pin num="2" name="1A1" type="passive"/>
+        <pin num="3" name="2Y4" type="passive"/>
+        <pin num="4" name="1A2" type="passive"/>
+        <pin num="5" name="2Y3" type="passive"/>
+        <pin num="6" name="1A3" type="passive"/>
+        <pin num="7" name="2Y2" type="passive"/>
+        <pin num="8" name="1A4" type="passive"/>
+        <pin num="9" name="2Y1" type="passive"/>
+        <pin num="10" name="VSS" type="passive"/>
+        <pin num="11" name="2A1" type="passive"/>
+        <pin num="12" name="1Y4" type="passive"/>
+        <pin num="13" name="2A2" type="passive"/>
+        <pin num="14" name="1Y3" type="passive"/>
+        <pin num="15" name="2A3" type="passive"/>
+        <pin num="16" name="1Y2" type="passive"/>
+        <pin num="17" name="2A4" type="passive"/>
+        <pin num="18" name="1Y1" type="passive"/>
+        <pin num="19" name="~2G" type="passive"/>
+        <pin num="20" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="DIODE">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="HEADER_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="JUMP_MINI">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMP_MINI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="FUSE-HOLDER">
+      <fields>
+        <field name="Reference">FH</field>
+        <field name="Value">FUSE-HOLDER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="LOGO_OSHW">
+      <footprints>
+        <fp>OSHW_logo_2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">LOGO_OSHW</field>
+        <field name="Footprint">OSHW_logo_2</field>
+      </fields>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="PCB_GREEN_RMC">
+      <footprints>
+        <fp>PCB</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">PCB_GREEN_RMC</field>
+      </fields>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="MOS_N">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="HEADER_3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="MOSFET_N_RMC">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOSFET_N_RMC</field>
+      </fields>
+      <pins>
+        <pin num="D" name="~" type="input"/>
+        <pin num="G" name="~" type="input"/>
+        <pin num="S" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="FET_N">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FET_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="HEADER_4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRAMPS-cache" part="BB_EXP_CONN_P8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BB_EXP_CONN_P8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DGND" type="passive"/>
+        <pin num="2" name="DGND" type="passive"/>
+        <pin num="3" name="GPIO1_6" type="power_out"/>
+        <pin num="4" name="GPIO1_7" type="power_out"/>
+        <pin num="5" name="GPIO1_2" type="power_out"/>
+        <pin num="6" name="GPIO1_3" type="power_out"/>
+        <pin num="7" name="TIMER4" type="BiDi"/>
+        <pin num="8" name="TIMER7" type="BiDi"/>
+        <pin num="9" name="TIMER5" type="BiDi"/>
+        <pin num="10" name="TIMER6" type="BiDi"/>
+        <pin num="11" name="GPIO1_13" type="BiDi"/>
+        <pin num="12" name="GPIO1_12" type="BiDi"/>
+        <pin num="13" name="EHRPWM2B" type="BiDi"/>
+        <pin num="14" name="GPIO0_26" type="BiDi"/>
+        <pin num="15" name="GPIO1_15" type="BiDi"/>
+        <pin num="16" name="GPIO1_14" type="BiDi"/>
+        <pin num="17" name="GPIO0_27" type="BiDi"/>
+        <pin num="18" name="GPIO2_1" type="BiDi"/>
+        <pin num="19" name="EHRPWM2A" type="BiDi"/>
+        <pin num="20" name="GPIO1_31" type="BiDi"/>
+        <pin num="21" name="GPIO1_30" type="BiDi"/>
+        <pin num="22" name="GPIO1_5" type="BiDi"/>
+        <pin num="23" name="GPIO1_4" type="BiDi"/>
+        <pin num="24" name="GPIO1_1" type="BiDi"/>
+        <pin num="25" name="GPIO1_0" type="BiDi"/>
+        <pin num="26" name="GPIO1_29" type="BiDi"/>
+        <pin num="27" name="GPIO2_22" type="BiDi"/>
+        <pin num="28" name="GPIO2_24" type="BiDi"/>
+        <pin num="29" name="GPIO2_23" type="BiDi"/>
+        <pin num="30" name="GPIO2_25" type="BiDi"/>
+        <pin num="31" name="UART5_CTSN" type="BiDi"/>
+        <pin num="32" name="UART5_RTSN" type="BiDi"/>
+        <pin num="33" name="UART4_RTSN" type="BiDi"/>
+        <pin num="34" name="UART3_RTSN" type="BiDi"/>
+        <pin num="35" name="UART4_CTSN" type="BiDi"/>
+        <pin num="36" name="UART3_CTSN" type="BiDi"/>
+        <pin num="37" name="UART5_TXD" type="BiDi"/>
+        <pin num="38" name="UART5_RXD" type="BiDi"/>
+        <pin num="39" name="GPIO2_12" type="BiDi"/>
+        <pin num="40" name="GPIO2_13" type="BiDi"/>
+        <pin num="41" name="GPIO2_10" type="BiDi"/>
+        <pin num="42" name="GPIO2_11" type="BiDi"/>
+        <pin num="43" name="GPIO2_8" type="BiDi"/>
+        <pin num="44" name="GPIO2_9" type="BiDi"/>
+        <pin num="45" name="GPIO2_6" type="BiDi"/>
+        <pin num="46" name="GPIO2_7" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CRAMPS-rescue">
+      <uri>E:\Learning\doc\Study\Doc_HCMUT\MediaFire\MrYoung\Doc\BeagleCapes\bobc_hardware-CRAMPS-v2.2.1\CRAMPS\CRAMPS-rescue.lib</uri>
+    </library>
+    <library logical="CRAMPS-cache">
+      <uri>E:\Learning\doc\Study\Doc_HCMUT\MediaFire\MrYoung\Doc\BeagleCapes\bobc_hardware-CRAMPS-v2.2.1\CRAMPS\CRAMPS-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Z_STEP">
+      <node ref="P8" pin="19"/>
+    </net>
+    <net code="2" name="VDD_5V">
+      <node ref="P9" pin="6"/>
+      <node ref="P9" pin="5"/>
+      <node ref="P404" pin="3"/>
+    </net>
+    <net code="3" name="Net-(P8-Pad39)">
+      <node ref="P8" pin="39"/>
+    </net>
+    <net code="4" name="Net-(P8-Pad29)">
+      <node ref="P8" pin="29"/>
+    </net>
+    <net code="5" name="Net-(P8-Pad38)">
+      <node ref="P8" pin="38"/>
+    </net>
+    <net code="6" name="Net-(P8-Pad28)">
+      <node ref="P8" pin="28"/>
+    </net>
+    <net code="7" name="Z_DIR">
+      <node ref="P8" pin="18"/>
+    </net>
+    <net code="8" name="Net-(P8-Pad37)">
+      <node ref="P8" pin="37"/>
+    </net>
+    <net code="9" name="Net-(P8-Pad27)">
+      <node ref="P8" pin="27"/>
+    </net>
+    <net code="10" name="ESTOP">
+      <node ref="P8" pin="17"/>
+      <node ref="R302" pin="2"/>
+    </net>
+    <net code="11" name="Net-(P8-Pad46)">
+      <node ref="P8" pin="46"/>
+    </net>
+    <net code="12" name="Net-(P8-Pad36)">
+      <node ref="P8" pin="36"/>
+    </net>
+    <net code="13" name="FET5">
+      <node ref="P9" pin="41"/>
+      <node ref="U302" pin="6"/>
+    </net>
+    <net code="14" name="THERM0">
+      <node ref="C506" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="P9" pin="33"/>
+      <node ref="R515" pin="1"/>
+    </net>
+    <net code="15" name="MACHINE_PWR">
+      <node ref="P9" pin="23"/>
+      <node ref="Q302" pin="G"/>
+      <node ref="Q304" pin="G"/>
+    </net>
+    <net code="16" name="Z-MIN">
+      <node ref="P9" pin="13"/>
+      <node ref="U501" pin="18"/>
+    </net>
+    <net code="17" name="SPI_CS1">
+      <node ref="P9" pin="42"/>
+    </net>
+    <net code="18" name="ADC_VDD">
+      <node ref="R511" pin="1"/>
+      <node ref="R512" pin="1"/>
+      <node ref="R513" pin="1"/>
+      <node ref="R514" pin="1"/>
+      <node ref="P305" pin="6"/>
+      <node ref="P9" pin="32"/>
+    </net>
+    <net code="19" name="FET6">
+      <node ref="P9" pin="22"/>
+      <node ref="U302" pin="8"/>
+    </net>
+    <net code="20" name="E0_DIR">
+      <node ref="P9" pin="12"/>
+    </net>
+    <net code="21" name="ESTOP_SW">
+      <node ref="P8" pin="26"/>
+      <node ref="Q301" pin="G"/>
+    </net>
+    <net code="22" name="SCK">
+      <node ref="P9" pin="31"/>
+      <node ref="U501" pin="15"/>
+    </net>
+    <net code="23" name="FET4">
+      <node ref="U302" pin="11"/>
+      <node ref="P9" pin="21"/>
+    </net>
+    <net code="24" name="Z-MAX">
+      <node ref="U501" pin="17"/>
+      <node ref="P9" pin="11"/>
+    </net>
+    <net code="25" name="AIN1">
+      <node ref="P305" pin="2"/>
+      <node ref="P9" pin="40"/>
+    </net>
+    <net code="26" name="MOSI">
+      <node ref="P9" pin="30"/>
+      <node ref="U501" pin="14"/>
+    </net>
+    <net code="27" name="SDA">
+      <node ref="R307" pin="2"/>
+      <node ref="P9" pin="20"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="28" name="PWR_BUT">
+      <node ref="P102" pin="1"/>
+      <node ref="P9" pin="9"/>
+      <node ref="SW101" pin="1"/>
+    </net>
+    <net code="29" name="X-MAX">
+      <node ref="U501" pin="21"/>
+      <node ref="P8" pin="7"/>
+    </net>
+    <net code="30" name="Net-(P8-Pad31)">
+      <node ref="P8" pin="31"/>
+    </net>
+    <net code="31" name="Net-(P8-Pad21)">
+      <node ref="P8" pin="21"/>
+    </net>
+    <net code="32" name="FET1">
+      <node ref="U302" pin="17"/>
+      <node ref="P8" pin="11"/>
+    </net>
+    <net code="33" name="Net-(P8-Pad40)">
+      <node ref="P8" pin="40"/>
+    </net>
+    <net code="34" name="Net-(P8-Pad30)">
+      <node ref="P8" pin="30"/>
+    </net>
+    <net code="35" name="Net-(P8-Pad20)">
+      <node ref="P8" pin="20"/>
+    </net>
+    <net code="36" name="Y-MIN">
+      <node ref="P8" pin="10"/>
+      <node ref="U501" pin="20"/>
+    </net>
+    <net code="37" name="Y-MAX">
+      <node ref="P8" pin="9"/>
+      <node ref="U501" pin="19"/>
+    </net>
+    <net code="38" name="X-MIN">
+      <node ref="U501" pin="22"/>
+      <node ref="P8" pin="8"/>
+    </net>
+    <net code="39" name="Net-(P8-Pad41)">
+      <node ref="P8" pin="41"/>
+    </net>
+    <net code="40" name="Net-(P8-Pad6)">
+      <node ref="P8" pin="6"/>
+    </net>
+    <net code="41" name="Net-(P8-Pad5)">
+      <node ref="P8" pin="5"/>
+    </net>
+    <net code="42" name="Net-(P8-Pad4)">
+      <node ref="P8" pin="4"/>
+    </net>
+    <net code="43" name="Net-(P8-Pad3)">
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="44" name="Net-(LD102-PadA)">
+      <node ref="R102" pin="2"/>
+      <node ref="LD102" pin="A"/>
+    </net>
+    <net code="45" name="Y_DIR">
+      <node ref="P8" pin="14"/>
+    </net>
+    <net code="46" name="SPI_SPARE">
+      <node ref="P8" pin="16"/>
+    </net>
+    <net code="47" name="Net-(P8-Pad45)">
+      <node ref="P8" pin="45"/>
+    </net>
+    <net code="48" name="Net-(P8-Pad35)">
+      <node ref="P8" pin="35"/>
+    </net>
+    <net code="49" name="Net-(P8-Pad25)">
+      <node ref="P8" pin="25"/>
+    </net>
+    <net code="50" name="Y_STEP">
+      <node ref="P8" pin="15"/>
+    </net>
+    <net code="51" name="Net-(P8-Pad44)">
+      <node ref="P8" pin="44"/>
+    </net>
+    <net code="52" name="Net-(P8-Pad34)">
+      <node ref="P8" pin="34"/>
+    </net>
+    <net code="53" name="Net-(P8-Pad24)">
+      <node ref="P8" pin="24"/>
+    </net>
+    <net code="54" name="AXIS_ENAn">
+      <node ref="U302" pin="2"/>
+      <node ref="P9" pin="14"/>
+      <node ref="U302" pin="4"/>
+    </net>
+    <net code="55" name="Net-(P8-Pad43)">
+      <node ref="P8" pin="43"/>
+    </net>
+    <net code="56" name="Net-(P8-Pad33)">
+      <node ref="P8" pin="33"/>
+    </net>
+    <net code="57" name="Net-(P8-Pad23)">
+      <node ref="P8" pin="23"/>
+    </net>
+    <net code="58" name="X_STEP">
+      <node ref="P8" pin="13"/>
+    </net>
+    <net code="59" name="Net-(P8-Pad42)">
+      <node ref="P8" pin="42"/>
+    </net>
+    <net code="60" name="Net-(P8-Pad32)">
+      <node ref="P8" pin="32"/>
+    </net>
+    <net code="61" name="Net-(P8-Pad22)">
+      <node ref="P8" pin="22"/>
+    </net>
+    <net code="62" name="X_DIR">
+      <node ref="P8" pin="12"/>
+    </net>
+    <net code="63" name="Net-(P101-Pad3)">
+      <node ref="P101" pin="3"/>
+    </net>
+    <net code="64" name="SYS_5V">
+      <node ref="C302" pin="1"/>
+      <node ref="U302" pin="20"/>
+      <node ref="R303" pin="1"/>
+      <node ref="R308" pin="1"/>
+      <node ref="P501" pin="2"/>
+      <node ref="P501" pin="1"/>
+      <node ref="R505" pin="1"/>
+      <node ref="R507" pin="1"/>
+      <node ref="R503" pin="1"/>
+      <node ref="R504" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="R506" pin="1"/>
+      <node ref="P501" pin="6"/>
+      <node ref="C501" pin="1"/>
+      <node ref="R502" pin="1"/>
+      <node ref="R501" pin="1"/>
+      <node ref="U501" pin="24"/>
+      <node ref="P9" pin="7"/>
+      <node ref="P501" pin="3"/>
+      <node ref="R509" pin="1"/>
+      <node ref="R510" pin="1"/>
+      <node ref="P501" pin="5"/>
+      <node ref="P501" pin="4"/>
+      <node ref="R508" pin="1"/>
+      <node ref="P9" pin="8"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="65" name="Net-(P101-Pad6)">
+      <node ref="P101" pin="6"/>
+    </net>
+    <net code="66" name="Net-(P101-Pad5)">
+      <node ref="P101" pin="5"/>
+    </net>
+    <net code="67" name="Net-(P101-Pad4)">
+      <node ref="P101" pin="4"/>
+    </net>
+    <net code="68" name="Net-(P101-Pad2)">
+      <node ref="P101" pin="2"/>
+    </net>
+    <net code="69" name="LED">
+      <node ref="P9" pin="25"/>
+      <node ref="Q101" pin="G"/>
+    </net>
+    <net code="70" name="E2_DIR">
+      <node ref="P9" pin="26"/>
+    </net>
+    <net code="71" name="AIN3">
+      <node ref="P9" pin="38"/>
+      <node ref="P305" pin="3"/>
+      <node ref="JP501" pin="2"/>
+    </net>
+    <net code="72" name="SPI_CS0">
+      <node ref="U501" pin="13"/>
+      <node ref="P9" pin="28"/>
+    </net>
+    <net code="73" name="E1_DIR">
+      <node ref="P9" pin="18"/>
+    </net>
+    <net code="74" name="AIN2">
+      <node ref="P9" pin="37"/>
+      <node ref="P305" pin="1"/>
+    </net>
+    <net code="75" name="FET3">
+      <node ref="P9" pin="27"/>
+      <node ref="U302" pin="13"/>
+    </net>
+    <net code="76" name="E1_STEP">
+      <node ref="P9" pin="17"/>
+    </net>
+    <net code="77" name="THERM1">
+      <node ref="C503" pin="1"/>
+      <node ref="C507" pin="1"/>
+      <node ref="R516" pin="1"/>
+      <node ref="P9" pin="36"/>
+    </net>
+    <net code="78" name="SCL">
+      <node ref="P9" pin="19"/>
+      <node ref="U301" pin="6"/>
+      <node ref="R306" pin="2"/>
+    </net>
+    <net code="79" name="E0_STEP">
+      <node ref="P9" pin="16"/>
+    </net>
+    <net code="80" name="THERM2">
+      <node ref="C508" pin="1"/>
+      <node ref="R517" pin="1"/>
+      <node ref="P9" pin="35"/>
+      <node ref="C504" pin="1"/>
+    </net>
+    <net code="81" name="FET2">
+      <node ref="P9" pin="15"/>
+      <node ref="U302" pin="15"/>
+    </net>
+    <net code="82" name="DGND">
+      <node ref="P102" pin="2"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="R313" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R316" pin="2"/>
+      <node ref="Q101" pin="S"/>
+      <node ref="R315" pin="2"/>
+      <node ref="P103" pin="2"/>
+      <node ref="R312" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="U501" pin="12"/>
+      <node ref="SW102" pin="2"/>
+      <node ref="U501" pin="23"/>
+      <node ref="P101" pin="1"/>
+      <node ref="R309" pin="2"/>
+      <node ref="R311" pin="2"/>
+      <node ref="P9" pin="44"/>
+      <node ref="P9" pin="45"/>
+      <node ref="P9" pin="46"/>
+      <node ref="C501" pin="2"/>
+      <node ref="BB101" pin="M1"/>
+      <node ref="BB101" pin="M2"/>
+      <node ref="BB101" pin="M3"/>
+      <node ref="BB101" pin="M4"/>
+      <node ref="LD102" pin="K"/>
+      <node ref="C203" pin="2"/>
+      <node ref="P201" pin="2"/>
+      <node ref="R204" pin="2"/>
+      <node ref="Q303" pin="S"/>
+      <node ref="R206" pin="2"/>
+      <node ref="P301" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="R205" pin="2"/>
+      <node ref="R202" pin="2"/>
+      <node ref="Q301" pin="S"/>
+      <node ref="C301" pin="2"/>
+      <node ref="U301" pin="4"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="Q305" pin="S"/>
+      <node ref="U302" pin="10"/>
+      <node ref="C401" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="P8" pin="1"/>
+      <node ref="P8" pin="2"/>
+      <node ref="P9" pin="43"/>
+      <node ref="P9" pin="1"/>
+      <node ref="P9" pin="2"/>
+      <node ref="P404" pin="2"/>
+      <node ref="P401" pin="2"/>
+      <node ref="P402" pin="2"/>
+      <node ref="Q405" pin="S"/>
+      <node ref="Q402" pin="S"/>
+      <node ref="Q403" pin="S"/>
+      <node ref="C202" pin="2"/>
+      <node ref="R203" pin="2"/>
+      <node ref="Q404" pin="S"/>
+      <node ref="Q401" pin="S"/>
+      <node ref="Q406" pin="S"/>
+    </net>
+    <net code="83" name="ADC_GND">
+      <node ref="C507" pin="2"/>
+      <node ref="C502" pin="2"/>
+      <node ref="P305" pin="5"/>
+      <node ref="C509" pin="2"/>
+      <node ref="C508" pin="2"/>
+      <node ref="C504" pin="2"/>
+      <node ref="C505" pin="2"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C506" pin="2"/>
+      <node ref="P9" pin="34"/>
+    </net>
+    <net code="84" name="E2_STEP">
+      <node ref="P9" pin="24"/>
+    </net>
+    <net code="85" name="D3.3V">
+      <node ref="R314" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="U301" pin="8"/>
+      <node ref="R304" pin="1"/>
+      <node ref="R306" pin="1"/>
+      <node ref="R307" pin="1"/>
+      <node ref="P9" pin="3"/>
+      <node ref="P9" pin="4"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R305" pin="1"/>
+      <node ref="R310" pin="1"/>
+      <node ref="U301" pin="3"/>
+    </net>
+    <net code="86" name="AIN0">
+      <node ref="P305" pin="4"/>
+      <node ref="P9" pin="39"/>
+    </net>
+    <net code="87" name="MISO">
+      <node ref="P9" pin="29"/>
+      <node ref="U501" pin="16"/>
+    </net>
+    <net code="88" name="Net-(LD101-PadA)">
+      <node ref="LD101" pin="A"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="89" name="RESETn">
+      <node ref="P9" pin="10"/>
+      <node ref="P103" pin="1"/>
+      <node ref="SW102" pin="1"/>
+    </net>
+    <net code="90" name="Net-(LD101-PadK)">
+      <node ref="LD101" pin="K"/>
+      <node ref="Q101" pin="D"/>
+    </net>
+    <net code="93" name="Net-(R201-Pad1)">
+      <node ref="R201" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R203-Pad1)">
+      <node ref="R203" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R205-Pad1)">
+      <node ref="R205" pin="1"/>
+    </net>
+    <net code="96" name="Net-(R204-Pad1)">
+      <node ref="R204" pin="1"/>
+    </net>
+    <net code="97" name="Net-(R202-Pad1)">
+      <node ref="R202" pin="1"/>
+    </net>
+    <net code="100" name="Net-(R206-Pad1)">
+      <node ref="R206" pin="1"/>
+    </net>
+    <net code="101" name="/Stepper Drivers/E02A">
+      <node ref="P205" pin="2"/>
+    </net>
+    <net code="102" name="/Stepper Drivers/E01A">
+      <node ref="P205" pin="3"/>
+    </net>
+    <net code="103" name="/Stepper Drivers/E02B">
+      <node ref="P205" pin="1"/>
+    </net>
+    <net code="104" name="/Stepper Drivers/X1A">
+      <node ref="P202" pin="3"/>
+    </net>
+    <net code="105" name="/Stepper Drivers/Y1B">
+      <node ref="P203" pin="4"/>
+    </net>
+    <net code="106" name="/Stepper Drivers/Y1A">
+      <node ref="P203" pin="3"/>
+    </net>
+    <net code="107" name="/Stepper Drivers/Y2A">
+      <node ref="P203" pin="2"/>
+    </net>
+    <net code="108" name="/Stepper Drivers/Y2B">
+      <node ref="P203" pin="1"/>
+    </net>
+    <net code="109" name="/Stepper Drivers/X1B">
+      <node ref="P202" pin="4"/>
+    </net>
+    <net code="110" name="/Stepper Drivers/X2A">
+      <node ref="P202" pin="2"/>
+    </net>
+    <net code="111" name="/Stepper Drivers/X2B">
+      <node ref="P202" pin="1"/>
+    </net>
+    <net code="112" name="/Stepper Drivers/E21B">
+      <node ref="P207" pin="4"/>
+    </net>
+    <net code="113" name="/Stepper Drivers/E21A">
+      <node ref="P207" pin="3"/>
+    </net>
+    <net code="114" name="/Stepper Drivers/E22A">
+      <node ref="P207" pin="2"/>
+    </net>
+    <net code="115" name="/Stepper Drivers/E22B">
+      <node ref="P207" pin="1"/>
+    </net>
+    <net code="116" name="/Stepper Drivers/E11B">
+      <node ref="P206" pin="4"/>
+    </net>
+    <net code="117" name="/Stepper Drivers/E11A">
+      <node ref="P206" pin="3"/>
+    </net>
+    <net code="118" name="/Stepper Drivers/E12A">
+      <node ref="P206" pin="2"/>
+    </net>
+    <net code="119" name="/Stepper Drivers/E12B">
+      <node ref="P206" pin="1"/>
+    </net>
+    <net code="120" name="/Stepper Drivers/MOT_IN">
+      <node ref="P201" pin="1"/>
+      <node ref="FH201" pin="1"/>
+      <node ref="FH201" pin="2"/>
+    </net>
+    <net code="125" name="/Stepper Drivers/E01B">
+      <node ref="P205" pin="4"/>
+    </net>
+    <net code="126" name="+V_MOTOR">
+      <node ref="FH201" pin="4"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="FH201" pin="3"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C204" pin="1"/>
+      <node ref="C205" pin="1"/>
+    </net>
+    <net code="129" name="/Stepper Drivers/Z2A">
+      <node ref="P204" pin="2"/>
+    </net>
+    <net code="130" name="/Stepper Drivers/Z2B">
+      <node ref="P204" pin="1"/>
+    </net>
+    <net code="131" name="X_EN_BUFn">
+      <node ref="U302" pin="18"/>
+      <node ref="R314" pin="2"/>
+    </net>
+    <net code="132" name="/Stepper Drivers/Z1B">
+      <node ref="P204" pin="4"/>
+    </net>
+    <net code="133" name="/Stepper Drivers/Z1A">
+      <node ref="P204" pin="3"/>
+    </net>
+    <net code="136" name="Net-(R501-Pad2)">
+      <node ref="U501" pin="2"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="137" name="Net-(R514-Pad2)">
+      <node ref="R514" pin="2"/>
+      <node ref="R518" pin="2"/>
+    </net>
+    <net code="138" name="Net-(R503-Pad2)">
+      <node ref="U501" pin="4"/>
+      <node ref="R503" pin="2"/>
+    </net>
+    <net code="139" name="Net-(R505-Pad2)">
+      <node ref="U501" pin="6"/>
+      <node ref="R505" pin="2"/>
+    </net>
+    <net code="140" name="Net-(R506-Pad2)">
+      <node ref="U501" pin="7"/>
+      <node ref="R506" pin="2"/>
+    </net>
+    <net code="141" name="Net-(R502-Pad2)">
+      <node ref="U501" pin="3"/>
+      <node ref="R502" pin="2"/>
+    </net>
+    <net code="142" name="/Inputs/MISO-5V">
+      <node ref="R507" pin="2"/>
+      <node ref="U501" pin="8"/>
+    </net>
+    <net code="143" name="/Inputs/SCK-5V">
+      <node ref="R508" pin="2"/>
+      <node ref="U501" pin="9"/>
+    </net>
+    <net code="144" name="/Inputs/MOSI-5V">
+      <node ref="U501" pin="10"/>
+      <node ref="R509" pin="2"/>
+    </net>
+    <net code="145" name="/Inputs/SPI_CS0-5V">
+      <node ref="R510" pin="2"/>
+      <node ref="U501" pin="11"/>
+    </net>
+    <net code="146" name="Net-(R504-Pad2)">
+      <node ref="U501" pin="5"/>
+      <node ref="R504" pin="2"/>
+    </net>
+    <net code="147" name="Net-(R513-Pad2)">
+      <node ref="R517" pin="2"/>
+      <node ref="R513" pin="2"/>
+    </net>
+    <net code="148" name="Net-(R512-Pad2)">
+      <node ref="R516" pin="2"/>
+      <node ref="R512" pin="2"/>
+    </net>
+    <net code="149" name="Net-(R511-Pad2)">
+      <node ref="R511" pin="2"/>
+      <node ref="R515" pin="2"/>
+    </net>
+    <net code="150" name="THERM3">
+      <node ref="C505" pin="1"/>
+      <node ref="R518" pin="1"/>
+      <node ref="C509" pin="1"/>
+      <node ref="JP501" pin="1"/>
+    </net>
+    <net code="151" name="Net-(LD401-PadA)">
+      <node ref="LD401" pin="A"/>
+      <node ref="R402" pin="2"/>
+    </net>
+    <net code="152" name="Net-(C404-Pad2)">
+      <node ref="C404" pin="2"/>
+      <node ref="R405" pin="1"/>
+      <node ref="Q403" pin="G"/>
+    </net>
+    <net code="153" name="Net-(C403-Pad2)">
+      <node ref="Q402" pin="G"/>
+      <node ref="C403" pin="2"/>
+      <node ref="R403" pin="1"/>
+    </net>
+    <net code="154" name="Net-(LD402-PadA)">
+      <node ref="R404" pin="2"/>
+      <node ref="LD402" pin="A"/>
+    </net>
+    <net code="155" name="Net-(LD405-PadA)">
+      <node ref="LD405" pin="A"/>
+      <node ref="R410" pin="2"/>
+    </net>
+    <net code="156" name="FET3_BUF">
+      <node ref="R405" pin="2"/>
+      <node ref="U302" pin="7"/>
+      <node ref="R312" pin="1"/>
+    </net>
+    <net code="157" name="Net-(LD403-PadA)">
+      <node ref="LD403" pin="A"/>
+      <node ref="R406" pin="2"/>
+    </net>
+    <net code="158" name="FET6_BUF">
+      <node ref="U302" pin="12"/>
+      <node ref="R315" pin="1"/>
+      <node ref="R411" pin="2"/>
+    </net>
+    <net code="159" name="Net-(LD406-PadA)">
+      <node ref="LD406" pin="A"/>
+      <node ref="R412" pin="2"/>
+    </net>
+    <net code="160" name="FET5_BUF">
+      <node ref="U302" pin="14"/>
+      <node ref="R316" pin="1"/>
+      <node ref="R407" pin="2"/>
+    </net>
+    <net code="161" name="Net-(LD404-PadA)">
+      <node ref="LD404" pin="A"/>
+      <node ref="R408" pin="2"/>
+    </net>
+    <net code="162" name="/Mosfet Outputs/Ext_Fused">
+      <node ref="FH402" pin="4"/>
+      <node ref="FH402" pin="3"/>
+      <node ref="C401" pin="1"/>
+      <node ref="R404" pin="1"/>
+      <node ref="P406" pin="1"/>
+      <node ref="D403" pin="K"/>
+      <node ref="P408" pin="1"/>
+      <node ref="D405" pin="K"/>
+      <node ref="R406" pin="1"/>
+      <node ref="R410" pin="1"/>
+      <node ref="D402" pin="K"/>
+      <node ref="P405" pin="1"/>
+    </net>
+    <net code="163" name="/Mosfet Outputs/Ext_Pwr">
+      <node ref="FH402" pin="1"/>
+      <node ref="FH402" pin="2"/>
+      <node ref="P402" pin="1"/>
+    </net>
+    <net code="164" name="/Mosfet Outputs/Aux_Pwr">
+      <node ref="D404" pin="K"/>
+      <node ref="P407" pin="1"/>
+      <node ref="D406" pin="K"/>
+      <node ref="P409" pin="1"/>
+      <node ref="P404" pin="1"/>
+      <node ref="R408" pin="1"/>
+      <node ref="R412" pin="1"/>
+    </net>
+    <net code="165" name="FET4_BUF">
+      <node ref="R409" pin="2"/>
+      <node ref="U302" pin="9"/>
+      <node ref="R313" pin="1"/>
+    </net>
+    <net code="166" name="/Mosfet Outputs/Bed_Fused">
+      <node ref="R402" pin="1"/>
+      <node ref="FH401" pin="4"/>
+      <node ref="FH401" pin="3"/>
+      <node ref="P403" pin="1"/>
+      <node ref="D401" pin="K"/>
+    </net>
+    <net code="167" name="/Mosfet Outputs/Bed_Pwr">
+      <node ref="P401" pin="1"/>
+      <node ref="FH401" pin="2"/>
+      <node ref="FH401" pin="1"/>
+    </net>
+    <net code="168" name="FET2_BUF">
+      <node ref="R403" pin="2"/>
+      <node ref="U302" pin="5"/>
+      <node ref="R311" pin="1"/>
+    </net>
+    <net code="169" name="FET1_BUF">
+      <node ref="R401" pin="2"/>
+      <node ref="R309" pin="1"/>
+      <node ref="U302" pin="3"/>
+    </net>
+    <net code="170" name="Net-(C406-Pad2)">
+      <node ref="Q404" pin="G"/>
+      <node ref="R407" pin="1"/>
+      <node ref="C406" pin="2"/>
+    </net>
+    <net code="171" name="Net-(C407-Pad2)">
+      <node ref="R411" pin="1"/>
+      <node ref="Q406" pin="G"/>
+      <node ref="C407" pin="2"/>
+    </net>
+    <net code="172" name="Net-(C402-Pad2)">
+      <node ref="R401" pin="1"/>
+      <node ref="Q401" pin="G"/>
+      <node ref="C402" pin="2"/>
+    </net>
+    <net code="173" name="Net-(C405-Pad2)">
+      <node ref="R409" pin="1"/>
+      <node ref="Q405" pin="G"/>
+      <node ref="C405" pin="2"/>
+    </net>
+    <net code="174" name="/Mosfet Outputs/Bed_HTR">
+      <node ref="P403" pin="2"/>
+      <node ref="C402" pin="1"/>
+      <node ref="LD401" pin="K"/>
+      <node ref="Q401" pin="D"/>
+      <node ref="D401" pin="A"/>
+    </net>
+    <net code="175" name="/Mosfet Outputs/E2_HTR">
+      <node ref="LD405" pin="K"/>
+      <node ref="P408" pin="2"/>
+      <node ref="D405" pin="A"/>
+      <node ref="C405" pin="1"/>
+      <node ref="Q405" pin="D"/>
+    </net>
+    <net code="176" name="/Mosfet Outputs/E0_HTR">
+      <node ref="C403" pin="1"/>
+      <node ref="P405" pin="2"/>
+      <node ref="LD402" pin="K"/>
+      <node ref="Q402" pin="D"/>
+      <node ref="D402" pin="A"/>
+    </net>
+    <net code="177" name="/Mosfet Outputs/E1_HTR">
+      <node ref="D403" pin="A"/>
+      <node ref="Q403" pin="D"/>
+      <node ref="C404" pin="1"/>
+      <node ref="LD403" pin="K"/>
+      <node ref="P406" pin="2"/>
+    </net>
+    <net code="178" name="/Mosfet Outputs/P_FET6">
+      <node ref="LD406" pin="K"/>
+      <node ref="D406" pin="A"/>
+      <node ref="P409" pin="2"/>
+      <node ref="Q406" pin="D"/>
+      <node ref="C407" pin="1"/>
+    </net>
+    <net code="179" name="/Mosfet Outputs/P_FET5">
+      <node ref="Q404" pin="D"/>
+      <node ref="LD404" pin="K"/>
+      <node ref="P407" pin="2"/>
+      <node ref="C406" pin="1"/>
+      <node ref="D404" pin="A"/>
+    </net>
+    <net code="180" name="Net-(U301-Pad2)">
+      <node ref="U301" pin="2"/>
+    </net>
+    <net code="181" name="Net-(LD302-PadA)">
+      <node ref="LD302" pin="A"/>
+      <node ref="R305" pin="2"/>
+    </net>
+    <net code="182" name="Net-(P302-Pad1)">
+      <node ref="Q302" pin="S"/>
+      <node ref="P302" pin="1"/>
+      <node ref="Q304" pin="S"/>
+      <node ref="R302" pin="1"/>
+      <node ref="R304" pin="2"/>
+      <node ref="Q305" pin="G"/>
+    </net>
+    <net code="183" name="/Emergency Stop/PS-On">
+      <node ref="P301" pin="1"/>
+      <node ref="Q302" pin="D"/>
+    </net>
+    <net code="184" name="Net-(Q301-PadD)">
+      <node ref="R301" pin="2"/>
+      <node ref="Q301" pin="D"/>
+      <node ref="Q303" pin="G"/>
+    </net>
+    <net code="185" name="Net-(P302-Pad2)">
+      <node ref="Q303" pin="D"/>
+      <node ref="P302" pin="2"/>
+    </net>
+    <net code="186" name="Net-(LD301-PadA)">
+      <node ref="LD301" pin="A"/>
+      <node ref="R303" pin="2"/>
+    </net>
+    <net code="187" name="Net-(U301-Pad1)">
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="188" name="Net-(LD302-PadK)">
+      <node ref="LD302" pin="K"/>
+      <node ref="Q305" pin="D"/>
+    </net>
+    <net code="189" name="/Emergency Stop/MACHINE_PWRn">
+      <node ref="Q304" pin="D"/>
+      <node ref="U302" pin="1"/>
+      <node ref="R308" pin="2"/>
+      <node ref="LD301" pin="K"/>
+      <node ref="U302" pin="19"/>
+    </net>
+    <net code="190" name="EN_CRAMP3n">
+      <node ref="R310" pin="2"/>
+      <node ref="U302" pin="16"/>
+    </net>
+    <net code="191" name="Net-(U301-Pad7)">
+      <node ref="U301" pin="7"/>
+    </net>
+  </nets>
+</export>

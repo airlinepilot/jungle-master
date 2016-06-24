@@ -1,0 +1,18 @@
+Added Component: Designator=U1(DW16_ISO7240CF)
+Added Pin To Net: NetName=VCC1 Pin=U1-1
+Added Pin To Net: NetName=GND1 Pin=U1-2
+Added Pin To Net: NetName=NetJP3_1 Pin=U1-3
+Added Pin To Net: NetName=NetJP3_2 Pin=U1-4
+Added Pin To Net: NetName=NetJP3_3 Pin=U1-5
+Added Pin To Net: NetName=NetJP3_4 Pin=U1-6
+Added Pin To Net: NetName=GND1 Pin=U1-7
+Added Pin To Net: NetName=GND1 Pin=U1-8
+Added Pin To Net: NetName=GND2 Pin=U1-9
+Added Pin To Net: NetName=GND2 Pin=U1-10
+Added Pin To Net: NetName=NetJP4_4 Pin=U1-11
+Added Pin To Net: NetName=NetJP4_3 Pin=U1-12
+Added Pin To Net: NetName=NetJP4_2 Pin=U1-13
+Added Pin To Net: NetName=NetJP4_1 Pin=U1-14
+Added Pin To Net: NetName=GND2 Pin=U1-15
+Added Pin To Net: NetName=VCC2 Pin=U1-16
+Added Member To Class: ClassName=ISO7240F Member=Component U1 ISO7240CF_SOIC16

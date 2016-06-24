@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=D1 Old DesignItemId=Domino2_small New DesignItemId=Domino2_5mm
+Change Component DesignItemId : Designator=D2 Old DesignItemId=Domino2_small New DesignItemId=Domino2_5mm
+Change Component Footprint: Designator=D1 Old Footprint=DOMINO2_small New Footprint=DOMINO2
+Change Component Footprint: Designator=D2 Old Footprint=DOMINO2_small New Footprint=DOMINO2
+Added Room: Name=ISO7240F

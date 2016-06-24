@@ -1,0 +1,281 @@
+*************************************************************
+FileName = CNC_Remote.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top
+      File : CNC_Remote.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : CNC_Remote.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : CNC_Remote.GPB
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : CNC_Remote.GPT
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : CNC_Remote.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D17
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : CNC_Remote.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : CNC_Remote.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : CNC_Remote.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Dimension
+      File : CNC_Remote.GM1
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : tNames
+      File : CNC_Remote.GM2
+
+    Adding Layer      : tNames
+
+
+Used DCodes :
+    D41
+*************************************************************
+
+*************************************************************
+Generating : tValues
+      File : CNC_Remote.GM4
+
+    Adding Layer      : tValues
+
+
+Used DCodes :
+    D29
+*************************************************************
+
+*************************************************************
+Generating : tGlue
+      File : CNC_Remote.GM6
+
+    Adding Layer      : tGlue
+
+
+Used DCodes :
+    D43
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : tDocu
+      File : CNC_Remote.GM16
+
+    Adding Layer      : tDocu
+
+
+Used DCodes :
+    D25
+    D27
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : tKeepout
+      File : CNC_Remote.GM27
+
+    Adding Layer      : tKeepout
+
+
+Used DCodes :
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : CNC_Remote.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : CNC_Remote.GD1
+
+    Adding Drill Pair : Top-Bottom
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D26
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : CNC_Remote.GG1
+
+    Adding Drill Pair : Top-Bottom
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D26
+*************************************************************
+

@@ -1,0 +1,54 @@
+Added Component: Designator=C1(0805_C)
+Added Component: Designator=C2(0805_C)
+Added Component: Designator=C3(0805_C)
+Added Component: Designator=C4(0805_C)
+Added Component: Designator=C5(0805_C)
+Added Component: Designator=C6(0805_C)
+Added Component: Designator=D1(DOMINO2_small)
+Added Component: Designator=D2(DOMINO2_small)
+Added Component: Designator=JP1(HEAD2)
+Added Component: Designator=JP2(HEAD2)
+Added Component: Designator=JP3(HEAD4)
+Added Component: Designator=JP4(HEAD4)
+Added Pin To Net: NetName=GND1 Pin=C1-1
+Added Pin To Net: NetName=GND1 Pin=C2-1
+Added Pin To Net: NetName=GND1 Pin=C3-1
+Added Pin To Net: NetName=GND1 Pin=D1-1
+Added Pin To Net: NetName=GND1 Pin=D2-1
+Added Pin To Net: NetName=GND1 Pin=JP1-2
+Added Net: Name=GND1
+Added Pin To Net: NetName=GND2 Pin=C4-1
+Added Pin To Net: NetName=GND2 Pin=C5-1
+Added Pin To Net: NetName=GND2 Pin=C6-1
+Added Pin To Net: NetName=GND2 Pin=JP2-2
+Added Net: Name=GND2
+Added Pin To Net: NetName=NetJP3_1 Pin=JP3-1
+Added Net: Name=NetJP3_1
+Added Pin To Net: NetName=NetJP3_2 Pin=JP3-2
+Added Net: Name=NetJP3_2
+Added Pin To Net: NetName=NetJP3_3 Pin=JP3-3
+Added Net: Name=NetJP3_3
+Added Pin To Net: NetName=NetJP3_4 Pin=JP3-4
+Added Net: Name=NetJP3_4
+Added Pin To Net: NetName=NetJP4_1 Pin=JP4-1
+Added Net: Name=NetJP4_1
+Added Pin To Net: NetName=NetJP4_2 Pin=JP4-2
+Added Net: Name=NetJP4_2
+Added Pin To Net: NetName=NetJP4_3 Pin=JP4-3
+Added Net: Name=NetJP4_3
+Added Pin To Net: NetName=NetJP4_4 Pin=JP4-4
+Added Net: Name=NetJP4_4
+Added Pin To Net: NetName=VCC1 Pin=C1-2
+Added Pin To Net: NetName=VCC1 Pin=C2-2
+Added Pin To Net: NetName=VCC1 Pin=C3-2
+Added Pin To Net: NetName=VCC1 Pin=D1-2
+Added Pin To Net: NetName=VCC1 Pin=D2-2
+Added Pin To Net: NetName=VCC1 Pin=JP1-1
+Added Net: Name=VCC1
+Added Pin To Net: NetName=VCC2 Pin=C4-2
+Added Pin To Net: NetName=VCC2 Pin=C5-2
+Added Pin To Net: NetName=VCC2 Pin=C6-2
+Added Pin To Net: NetName=VCC2 Pin=JP2-1
+Added Net: Name=VCC2
+Added Class: Name=ISO7240F
+Added Room: Name=ISO7240F

@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: BotInd.PcbDoc   11/03/2016  9:44:20 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : BotInd.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        36mil (0.9144mm)         Round          3                0.20 Inch (5.08 mm)
+T2        39mil (0.9906mm)         Round          4                1.21 Inch (30.70 mm)
+T3        44.9mil (1.14046mm)      Round          2                0.14 Inch (3.50 mm)
+---------------------------------------------------------------------------
+Totals                                            9                1.55 Inch (39.28 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,18 @@
+Added Component: Designator=CON1(HEAD8x2)
+Added Pin To Net: NetName=1 Pin=CON1-1
+Added Pin To Net: NetName=2 Pin=CON1-2
+Added Pin To Net: NetName=3 Pin=CON1-3
+Added Pin To Net: NetName=4 Pin=CON1-4
+Added Pin To Net: NetName=5 Pin=CON1-5
+Added Pin To Net: NetName=6 Pin=CON1-6
+Added Pin To Net: NetName=7 Pin=CON1-7
+Added Pin To Net: NetName=8 Pin=CON1-8
+Added Pin To Net: NetName=8 Pin=CON1-9
+Added Pin To Net: NetName=7 Pin=CON1-10
+Added Pin To Net: NetName=6 Pin=CON1-11
+Added Pin To Net: NetName=5 Pin=CON1-12
+Added Pin To Net: NetName=4 Pin=CON1-13
+Added Pin To Net: NetName=3 Pin=CON1-14
+Added Pin To Net: NetName=2 Pin=CON1-15
+Added Pin To Net: NetName=1 Pin=CON1-16
+Added Member To Class: ClassName=UA Member=Component CON1 Con8x2

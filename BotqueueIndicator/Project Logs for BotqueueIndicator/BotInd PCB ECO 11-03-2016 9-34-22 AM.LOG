@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Added Component: Designator=R1(R 2W)
+Added Pin To Net: NetName=VCC Pin=R1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R1-2
+Added Member To Class: ClassName=BotInd Member=Component R1 R2W
+Added Member To Class: ClassName=BotInd Member=Component R5 0805_R
+Added Room: Name=BotInd

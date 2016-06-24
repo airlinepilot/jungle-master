@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2013-05-16 BZR 4016)-stable date = 6/4/2013 4:47:15 AM
+
+BeginCmp
+TimeStamp = /51A9CD0F;
+Reference = D1;
+ValeurCmp = green;
+IdModule  = LED-0805-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5197EDF9;
+Reference = Hole1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5197EE17;
+Reference = Hole2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5197EE1D;
+Reference = Hole3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5197EE23;
+Reference = Hole4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AC7546;
+Reference = IC1;
+ValeurCmp = TCST1103;
+IdModule  = TCST1103-2103;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AC90A6;
+Reference = IC11;
+ValeurCmp = TCST1103;
+IdModule  = TCRT1000;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A99107;
+Reference = J1;
+ValeurCmp = HEADER_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /519E49E2;
+Reference = M2;
+ValeurCmp = LOGO_OSHW;
+IdModule  = OSHW_logo_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A9CABC;
+Reference = Q1;
+ValeurCmp = BS108D;
+IdModule  = sot23-to92;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A9CCEC;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A99778;
+Reference = RL_diode1;
+ValeurCmp = 68;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A99788;
+Reference = Rp_rcv1;
+ValeurCmp = 1k5;
+IdModule  = SM1206;
+EndCmp
+
+EndListe

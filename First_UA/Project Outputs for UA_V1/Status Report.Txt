@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [UA_V1.PrjPcb]
+   Generated File[UA.GTL]
+   Generated File[UA.GBL]
+   Generated File[UA.GPB]
+   Generated File[UA.GPT]
+   Generated File[UA.GTO]
+   Generated File[UA.GTS]
+   Generated File[UA.GBS]
+   Generated File[UA.GKO]
+   Generated File[UA.GD1]
+   Generated File[UA.GG1]
+   Generated File[UA.RUL]
+   Generated File[UA.EXTREP]
+   Generated File[UA.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 11:04:10 AM On 16/06/2015
